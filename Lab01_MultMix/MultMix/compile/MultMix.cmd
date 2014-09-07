@@ -1,0 +1,1 @@
+-w -s "i:\Embedded\_Projects\Lab01_MultMix\library.cfg"  -j "i:\Embedded\_Projects\Lab01_MultMix\MultMix\projlib.cfg"  -d "i:\Embedded\_Projects\Lab01_MultMix\MultMix\compile"   -work MultMix  -O3 -e 100 -2002 "i:\Embedded\_Projects\Lab01_MultMix\MultMix\src\MultD2.vhd"

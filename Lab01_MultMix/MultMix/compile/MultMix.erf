@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: i:\Embedded\_Projects\Lab01_MultMix\MultMix\src\MultD2.vhd" 
+MESSAGE "Compile Entity "MultD2"" 
+MESSAGE "Compile Architecture "beh" of Entity "MultD2"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

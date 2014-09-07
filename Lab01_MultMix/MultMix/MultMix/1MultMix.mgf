@@ -1,0 +1,62 @@
+I 000044 55 1320          1410106846693 beh
+(_unit VHDL (multd2 0 28 (beh 0 41 ))
+	(_version vb4)
+	(_time 1410106846694 2014.09.07 19:20:46)
+	(_source (\./../src/MultD2.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code e7b2e5b5e5b0e0f0e2e3f3b8b4e1b3e0e2e1b4e0e3)
+	(_entity
+		(_time 1410106846689)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal in1 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in2 ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal in3 ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in ))))
+		(_port (_internal in4 ~extieee.std_logic_1164.STD_LOGIC 0 33 (_entity (_in ))))
+		(_port (_internal s ~extieee.std_logic_1164.STD_LOGIC 0 34 (_entity (_in ))))
+		(_port (_internal out1 ~extieee.std_logic_1164.STD_LOGIC 0 35 (_entity (_out ))))
+		(_port (_internal out2 ~extieee.std_logic_1164.STD_LOGIC 0 35 (_entity (_out ))))
+		(_process
+			(line__43(_architecture 0 0 43 (_assignment (_simple)(_target(5))(_sensitivity(0)(1)(4)))))
+			(line__44(_architecture 1 0 44 (_assignment (_simple)(_target(6))(_sensitivity(2)(3)(4)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 2 -1
+	)
+)
+V 000044 55 1320          1410107453514 beh
+(_unit VHDL (multd2 0 28 (beh 0 41 ))
+	(_version vb4)
+	(_time 1410107453515 2014.09.07 19:30:53)
+	(_source (\./../src/MultD2.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 53540551550454445657470c005507545655005457)
+	(_entity
+		(_time 1410106846688)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal in1 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in2 ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal in3 ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in ))))
+		(_port (_internal in4 ~extieee.std_logic_1164.STD_LOGIC 0 33 (_entity (_in ))))
+		(_port (_internal s ~extieee.std_logic_1164.STD_LOGIC 0 34 (_entity (_in ))))
+		(_port (_internal out1 ~extieee.std_logic_1164.STD_LOGIC 0 35 (_entity (_out ))))
+		(_port (_internal out2 ~extieee.std_logic_1164.STD_LOGIC 0 35 (_entity (_out ))))
+		(_process
+			(line__43(_architecture 0 0 43 (_assignment (_simple)(_target(5))(_sensitivity(0)(1)(4)))))
+			(line__44(_architecture 1 0 44 (_assignment (_simple)(_target(6))(_sensitivity(2)(3)(4)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 2 -1
+	)
+)
