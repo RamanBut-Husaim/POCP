@@ -1,0 +1,15 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+logical_function=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\Equator.vhd]
+FileTimeLow=30395053
+Status=Compiled
+[COMPILESTATUS|.\src\time.do]
+FileTimeLow=30395059
+Status=Modified
+[COMPILESTATUS|.\src\400ns_time.awc]
+FileTimeLow=30395059
+Status=Modified
+[COMPILESTATUS|.\src\400ns_list.awc]
+FileTimeLow=30395059
+Status=Modified

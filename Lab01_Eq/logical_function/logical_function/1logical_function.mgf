@@ -1,0 +1,87 @@
+I 000044 55 1187          1410102221872 beh
+(_unit VHDL (equator 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410102221873 2014.09.07 18:03:41)
+	(_source (\./../src/Equator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 3b3e6b3f686d6a2d3a6a2f613c3c393d3e3c3a3c3e)
+	(_entity
+		(_time 1410102221867)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal in1 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in2 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in3 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Q ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_inout ))))
+		(_port (_internal nQ ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+			(line__41(_architecture 1 0 41 (_assignment (_simple)(_alias((nQ)(Q)))(_simpleassign "not")(_target(4))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 2 -1
+	)
+)
+I 000044 55 1187          1410102282179 beh
+(_unit VHDL (equator 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410102282180 2014.09.07 18:04:42)
+	(_source (\./../src/Equator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code c4c0c890c19295d2c595d09ec3c3c6c2c1c3c5c3c1)
+	(_entity
+		(_time 1410102221866)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal in1 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in2 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in3 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Q ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_inout ))))
+		(_port (_internal nQ ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+			(line__41(_architecture 1 0 41 (_assignment (_simple)(_alias((nQ)(Q)))(_simpleassign "not")(_target(4))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 2 -1
+	)
+)
+V 000044 55 1187          1410102666918 beh
+(_unit VHDL (equator 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410102666919 2014.09.07 18:11:06)
+	(_source (\./../src/Equator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code a2a4aff4a1f4f3b4a3f3b6f8a5a5a0a4a7a5a3a5a7)
+	(_entity
+		(_time 1410102221866)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal in1 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in2 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal in3 ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Q ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_inout ))))
+		(_port (_internal nQ ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+			(line__41(_architecture 1 0 41 (_assignment (_simple)(_alias((nQ)(Q)))(_simpleassign "not")(_target(4))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 2 -1
+	)
+)

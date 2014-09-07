@@ -1,0 +1,1 @@
+-w -s "i:\Embedded\_Projects\Lab01_Eq\library.cfg"  -j "i:\Embedded\_Projects\Lab01_Eq\logical_function\projlib.cfg"  -d "i:\Embedded\_Projects\Lab01_Eq\logical_function\compile"   -work logical_function  -O3 -e 100 -2002 "i:\Embedded\_Projects\Lab01_Eq\logical_function\src\Equator.vhd"

@@ -1,0 +1,4 @@
+MESSAGE "File: I:\Embedded\_Projects\Labs\Lab01\Mux_Element\src\mux.vhd" 
+MESSAGE "Compile Entity "mux"" 
+MESSAGE "Compile Architecture "beh" of Entity "mux"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+ <document type="stimulators" version="1">
+  <set name="ASDB Stimulators" active="0"/>
+  <set name="ASDB Stimulators 1" active="1">
+   <stimulator>
+    <signal_path value="/mux/A"/>
+    <rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:0:"/>
+   </stimulator>
+   <stimulator>
+    <signal_path value="/mux/B"/>
+    <rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;0:Clock:1:"/>
+   </stimulator>
+   <stimulator>
+    <signal_path value="/mux/S"/>
+    <rawdescription value="CLK:FRM:Override:200.000000;2;1;0;50;0:Clock:1:"/>
+   </stimulator>
+  </set>
+ </document>
+</XML>

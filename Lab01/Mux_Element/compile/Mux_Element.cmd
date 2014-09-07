@@ -1,0 +1,1 @@
+-w -s "I:\Embedded\_Projects\Labs\Lab01\library.cfg"  -j "I:\Embedded\_Projects\Labs\Lab01\Mux_Element\projlib.cfg"  -d "I:\Embedded\_Projects\Labs\Lab01\Mux_Element\compile"   -work Mux_Element  -dbg -e 100 -2008 "I:\Embedded\_Projects\Labs\Lab01\Mux_Element\src\mux.vhd"

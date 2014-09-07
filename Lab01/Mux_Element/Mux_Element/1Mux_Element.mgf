@@ -1,0 +1,194 @@
+I 000044 55 960           1410097172720 beh
+(_unit VHDL (mux 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410097172721 2014.09.07 16:39:32)
+	(_source (\./../src/mux.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code f7f2a1a6f5a1abe1a3a5e2acaef1a3f0f2f0fff1a3)
+	(_entity
+		(_time 1410097172712)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal A ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal B ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal S ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Z ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 1 -1
+	)
+)
+I 000044 55 960           1410097673178 beh
+(_unit VHDL (mux 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410097673179 2014.09.07 16:47:53)
+	(_source (\./../src/mux.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code dc8e8d8f8a8a80ca888ec98785da88dbd9dbd4da88)
+	(_entity
+		(_time 1410097172711)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal A ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal B ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal S ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Z ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 1 -1
+	)
+)
+I 000044 55 980           1410098012667 beh
+(_unit VHDL (mux 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410098012668 2014.09.07 16:53:32)
+	(_source (\./../src/mux.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_parameters dbg)
+	(_code f8feafa9f5aea4eeacaaeda3a1feacfffdfff0feac)
+	(_entity
+		(_time 1410098012663)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal A ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal B ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal S ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Z ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 1 -1
+	)
+)
+I 000044 55 980           1410098546303 beh
+(_unit VHDL (mux 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410098546304 2014.09.07 17:02:26)
+	(_source (\./../src/mux.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_parameters dbg)
+	(_code 8185dd8e85d7dd97d5d394dad887d58684868987d5)
+	(_entity
+		(_time 1410098012662)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal A ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal B ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal S ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Z ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 1 -1
+	)
+)
+I 000044 55 980           1410098549068 beh
+(_unit VHDL (mux 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410098549069 2014.09.07 17:02:29)
+	(_source (\./../src/mux.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_parameters dbg)
+	(_code 4e4b194d1e1812581a1c5b1517481a494b4946481a)
+	(_entity
+		(_time 1410098012662)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal A ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal B ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal S ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Z ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 1 -1
+	)
+)
+I 000044 55 980           1410099080874 beh
+(_unit VHDL (mux 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410099080875 2014.09.07 17:11:20)
+	(_source (\./../src/mux.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_parameters dbg)
+	(_code b3b0e7e6b5e5efa5e7e1a6e8eab5e7b4b6b4bbb5e7)
+	(_entity
+		(_time 1410098012662)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal A ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal B ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal S ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Z ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 1 -1
+	)
+)
+V 000044 55 980           1410099536851 beh
+(_unit VHDL (mux 0 28 (beh 0 38 ))
+	(_version vb4)
+	(_time 1410099536852 2014.09.07 17:18:56)
+	(_source (\./../src/mux.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_parameters dbg)
+	(_code d4d68587d58288c28086c18f8dd280d3d1d3dcd280)
+	(_entity
+		(_time 1410098012662)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal A ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal B ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal S ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Z ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_assignment (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . beh 1 -1
+	)
+)
