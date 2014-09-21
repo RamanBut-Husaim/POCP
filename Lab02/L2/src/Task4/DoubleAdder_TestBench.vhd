@@ -93,5 +93,4 @@ begin
 	error_carry <= sampled_response_struct_carry xor sampled_response_beh_carry;
 	
 	assert error_carry /= '1' report "The device doesn't work as expected." severity failure;
-	--assert error_sum = (error_sum'range => '0') report "The device doesn't work as expected." severity failure;
 end Beh;
