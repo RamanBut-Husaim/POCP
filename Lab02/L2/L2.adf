@@ -1,0 +1,124 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=L2
+
+[Library]
+L2=.\L2\L2.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+fileopenfolder=I:\Embedded\_Projects\POCP\Lab02\L2\src\Task4
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+VerilogLanguage=4
+WarningPrnLevel=1
+OptimizationLevel=2
+ProtectLevel=0
+Strict=0
+VerilogNoSpecify=0
+AdditionalOptions=
+ErrorOutputLimit=0
+
+[LocalVhdlSets]
+CompileWithDebug=1
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=1
+EnableVHDL2008Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+
+[$LibMap$]
+L2=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+Task1=1
+Task2=1
+Task3=1
+Task4=1
+
+[Files]
+/And2.vhd=-1
+/Or2.vhd=-1
+/Inv.vhd=-1
+/And3.vhd=-1
+/Or3.vhd=-1
+/Xor2.vhd=-1
+Task1/CustomMux.vhd=-1
+Task1/CustomMux_TestBench.vhd=-1
+Task2/MegaMux.vhd=-1
+Task2/MegaMux_TestBench.vhd=-1
+Task3/var2schema.vhd=-1
+Task3/var2schema_TestBench.vhd=-1
+Task3/var3schema.vhd=-1
+Task3/var3schema_TestBench.vhd=-1
+Task3/var1schema.vhd=-1
+Task3/var1schema_TestBench.vhd=-1
+Task4/FullAdder.vhd=-1
+Task4/FullAdder_TestBench.vhd=-1
+Task4/DoubleAdder.vhd=-1
+Task4/DoubleAdder_TestBench.vhd=-1
+
+[Files.Data]
+.\src\And2.vhd=VHDL Source Code
+.\src\Or2.vhd=VHDL Source Code
+.\src\Inv.vhd=VHDL Source Code
+.\src\And3.vhd=VHDL Source Code
+.\src\Or3.vhd=VHDL Source Code
+.\src\Xor2.vhd=VHDL Source Code
+.\src\Task1\CustomMux.vhd=VHDL Source Code
+.\src\Task1\CustomMux_TestBench.vhd=VHDL Source Code
+.\src\Task2\MegaMux.vhd=VHDL Source Code
+.\src\Task2\MegaMux_TestBench.vhd=VHDL Source Code
+.\src\Task3\var2schema.vhd=VHDL Source Code
+.\src\Task3\var2schema_TestBench.vhd=VHDL Source Code
+.\src\Task3\var3schema.vhd=VHDL Source Code
+.\src\Task3\var3schema_TestBench.vhd=VHDL Source Code
+.\src\Task3\var1schema.vhd=VHDL Source Code
+.\src\Task3\var1schema_TestBench.vhd=VHDL Source Code
+.\src\Task4\FullAdder.vhd=VHDL Source Code
+.\src\Task4\FullAdder_TestBench.vhd=VHDL Source Code
+.\src\Task4\DoubleAdder.vhd=VHDL Source Code
+.\src\Task4\DoubleAdder_TestBench.vhd=VHDL Source Code
+
+[DefineMacro]
+Global=
+[LocalVerilogDirs]
+Count=0
