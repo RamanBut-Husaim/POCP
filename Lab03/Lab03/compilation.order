@@ -1,0 +1,12 @@
+.\src\Inv.vhd
+.\src\NOR2.vhd
+.\src\AND2.vhd
+.\src\Task1\BistableElement.vhd
+.\src\Testbenches\D_Latch_Test.vhd
+.\src\Testbenches\RS_Latch_Test.vhd
+.\src\Testbenches\BistableElement_test.vhd
+.\src\Task2\RS_Latch_Param.vhd
+.\src\Task2\RS_Latch.vhd
+.\src\Task3\D_Latch_Param.vhd
+.\src\Task3\D_Latch.vhd
+.\src\Task4\D_Enable_Latch.vhd

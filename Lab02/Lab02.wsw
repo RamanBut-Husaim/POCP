@@ -16,4 +16,14 @@ TemplateId=0
 TemplateId=0
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\L2\src\Task4\DoubleAdder_TestBench.vhd|]
 TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\L2\src\Inv.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\L2\src\And3.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\L2\src\Task1\CustomMux.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\L2\src\Task1\CustomMux_TestBench.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\L2\src\And2.vhd|]
+TemplateId=0
 ActiveDocument=1
