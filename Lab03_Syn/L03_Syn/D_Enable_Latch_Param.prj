@@ -1,0 +1,4 @@
+vhdl work "Nor2.vhd"
+vhdl work "Inv.vhd"
+vhdl work "And2.vhd"
+vhdl work "D_Enable_Latch_Param.vhd"

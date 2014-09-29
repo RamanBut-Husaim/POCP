@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/D_Latch.xst" -ofn "I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/D_Latch.syr" 
+xst -intstyle ise -ifn "I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/D_Latch.xst" -ofn "I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/D_Latch.syr" 

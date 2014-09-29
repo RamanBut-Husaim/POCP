@@ -9,4 +9,7 @@
 .\src\Task2\RS_Latch.vhd
 .\src\Task3\D_Latch_Param.vhd
 .\src\Task3\D_Latch.vhd
+.\src\Task4\D_Enable_Latch_Param.vhd
 .\src\Task4\D_Enable_Latch.vhd
+.\src\Task5\DFF.vhd
+.\src\Task6\DFF_Enable_Async.vhd

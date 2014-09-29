@@ -1,4 +1,4 @@
-1976
+3455
 ~E 1 "./../src/AND2.vhd" 4 AND2
 ~A 1 "./../src/AND2.vhd" 10 Arch
 ~E 1 "./../src/Task1/BistableElement.vhd" 4 BistableElement
@@ -6,7 +6,11 @@
 ~E 1 "./../src/Testbenches/BistableElement_test.vhd" 6 BistableElement_test
 ~A 1 "./../src/Testbenches/BistableElement_test.vhd" 9 Beh
 ~E 1 "./../src/Task4/D_Enable_Latch.vhd" 4 D_Enable_Latch
+~A 1 "./../src/Task4/D_Enable_Latch.vhd" 39 Beh
 ~A 1 "./../src/Task4/D_Enable_Latch.vhd" 12 Struct
+~E 1 "./../src/Task4/D_Enable_Latch_Param.vhd" 4 D_Enable_Latch_Param
+~A 1 "./../src/Task4/D_Enable_Latch_Param.vhd" 39 Beh
+~A 1 "./../src/Task4/D_Enable_Latch_Param.vhd" 12 Struct
 ~E 1 "./../src/Task3/D_Latch.vhd" 4 D_Latch
 ~A 1 "./../src/Task3/D_Latch.vhd" 32 Beh
 ~A 1 "./../src/Task3/D_Latch.vhd" 12 Struct
@@ -15,6 +19,10 @@
 ~A 1 "./../src/Task3/D_Latch_Param.vhd" 11 Struct
 ~E 1 "./../src/Testbenches/D_Latch_Test.vhd" 6 D_Latch_Test
 ~A 1 "./../src/Testbenches/D_Latch_Test.vhd" 9 Beh
+~E 1 "./../src/Task5/DFF.vhd" 4 DFF
+~A 1 "./../src/Task5/DFF.vhd" 9 Behavior
+~E 1 "./../src/Task6/DFF_Enable_Async.vhd" 3 DFF_Enable_Async
+~A 1 "./../src/Task6/DFF_Enable_Async.vhd" 11 Behavioral
 ~E 1 "./../src/Inv.vhd" 4 Inv
 ~A 1 "./../src/Inv.vhd" 10 Arch
 ~E 1 "./../src/Task2/NOR2.vhd" 4 NOR2

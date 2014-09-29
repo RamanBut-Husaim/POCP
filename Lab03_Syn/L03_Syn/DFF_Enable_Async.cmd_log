@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/DFF_Enable_Async.xst" -ofn "I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/DFF_Enable_Async.syr" 
