@@ -125,6 +125,10 @@ Count=0
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
+<<<<<<< HEAD
 HierarchyInformation=custommux_testbench|Beh|0 megamux_testbench|Beh|0 var1schema|Beh|0 var1schema_testbench|Beh|0  
+=======
+HierarchyInformation=doubleadder_testbench|Beh|0    
+>>>>>>> 2d9fb4b5a8598d14f3ebb126f970fffd36256ee3
 ShowHide=ShowTopLevel
 Selected=

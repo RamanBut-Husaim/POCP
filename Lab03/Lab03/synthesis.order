@@ -1,0 +1,8 @@
+i<>.\src\Inv.vhd
+i<>.\src\NOR2.vhd
+i<>.\src\AND2.vhd
+i<>.\src\Task1\BistableElement.vhd
+i<>.\src\Task2\RS_Latch_Param.vhd
+i<>.\src\Task2\RS_Latch.vhd
+i<>.\src\Task3\D_Latch_Param.vhd
+i<>.\src\Task3\D_Latch.vhd

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 110
 ~E 1 "./../src/And2.vhd" 4 AND2
+=======
+6143
+~E 1 "./../src/CustomMux.vhd" 28 AND2
+>>>>>>> 2d9fb4b5a8598d14f3ebb126f970fffd36256ee3
 ~A 1 "./../src/And2.vhd" 10 Arch
 ~E 1 "./../src/And3.vhd" 4 AND3
 ~A 1 "./../src/And3.vhd" 10 Arch

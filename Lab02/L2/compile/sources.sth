@@ -1,4 +1,5 @@
 [Files List]
+<<<<<<< HEAD
 E:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/standard.vhd=S
 E:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/textio.vhd=S
 E:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/std_logic_1164.vhdl=S
@@ -13,3 +14,16 @@ E:\Embedded\Projects\POCP\Lab02\L2/src/And2.vhd=S
 E:\Embedded\Projects\POCP\Lab02\L2/src/Inv.vhd=S
 E:\Embedded\Projects\POCP\Lab02\L2/src/Task3/var2schema.vhd=S
 E:\Embedded\Projects\POCP\Lab02\L2/src/Task3/var1schema_TestBench.vhd=S
+=======
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/standard.vhd=S
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/textio.vhd=S
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/arith_p.vhd=S
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/arith_b.vhd=S
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/unsigned_p.vhd=S
+I:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/unsigned_b.vhd=S
+i:\Embedded\_Projects\POCP\Lab02\L2/src/Task4/FullAdder.vhd=S
+i:\Embedded\_Projects\POCP\Lab02\L2/src/Task4/DoubleAdder.vhd=S
+i:\Embedded\_Projects\POCP\Lab02\L2/src/Task4/DoubleAdder_TestBench.vhd=S
+>>>>>>> 2d9fb4b5a8598d14f3ebb126f970fffd36256ee3

@@ -65302,7 +65302,7 @@ V 000044 55 2150          1411318157421 Beh
 	(_model . Beh 9 -1
 	)
 )
-V 000044 55 6243          1411318157484 Beh
+I 000044 55 6243          1411318157484 Beh
 (_unit VHDL (doubleadder_testbench 0 6 (beh 0 9 ))
 	(_version vb4)
 	(_time 1411318157485 2014.09.21 19:49:17)
@@ -65397,6 +65397,7 @@ V 000044 55 6243          1411318157484 Beh
 	(_model . Beh 14 -1
 	)
 )
+<<<<<<< HEAD
 V 000045 55 896           1411492581686 Arch
 (_unit VHDL (and2 0 4 (arch 0 10 ))
 	(_version vb4)
@@ -66936,6 +66937,18 @@ V 000044 55 6270          1411492593248 Beh
 	(_code e0b2e4b3b6b6b1f6e7b0a3bab4e6e1e6e4e6e4e6e5)
 	(_entity
 		(_time 1411492593246)
+=======
+V 000044 55 6270          1411909523695 Beh
+(_unit VHDL (doubleadder_testbench 0 6 (beh 0 9 ))
+	(_version vb4)
+	(_time 1411909523696 2014.09.28 16:05:23)
+	(_source (\./../src/Task4/DoubleAdder_TestBench.vhd\))
+	(_use (std(standard))(std(TEXTIO))(ieee(std_logic_1164))(ieee(STD_LOGIC_UNSIGNED)))
+	(_parameters dbg)
+	(_code 9fcfcf909fc9ce8998cfdcc5cb999e999b999b999a)
+	(_entity
+		(_time 1411317580678)
+>>>>>>> 2d9fb4b5a8598d14f3ebb126f970fffd36256ee3
 		(_use (std(standard))(std(TEXTIO))(ieee(std_logic_1164))(ieee(STD_LOGIC_UNSIGNED)))
 	)
 	(_instantiation Adder_Struct 0 66 (_entity . DoubleAdder Struct)
