@@ -1,0 +1,8 @@
+var2schema_TestBench ENTITY
+FullAdder_TestBench ENTITY
+var3schema_TestBench ENTITY
+DoubleAdder_TestBench ENTITY
+CustomMux_TestBench ENTITY
+MegaMux_TestBench ENTITY
+var1schema_TestBench ENTITY
+var1schema ENTITY
