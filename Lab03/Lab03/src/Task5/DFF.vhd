@@ -1,17 +1,17 @@
-LIBRARY IEEE;
-USE IEEE.STD_LOGIC_1164.ALL;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
 
-ENTITY DFF IS PORT (
-		D, Clock: IN STD_LOGIC;
-		Q: OUT STD_LOGIC);
-END DFF;
+entity DFF is port (
+		D, Clock: in STD_LOGIC;
+		Q: out STD_LOGIC);
+end DFF;
 
-ARCHITECTURE Behavior OF DFF IS
-BEGIN
-	PROCESS(Clock)
-	BEGIN
-		IF (Clock'Event AND Clock = '1') THEN
+architecture Behavior of DFF is
+begin
+	process(Clock)
+	begin
+		if (Clock'Event and Clock = '1') then
 			Q <= D;
-		END IF;
-	END PROCESS;
-END Behavior;
+		end if;
+	end process;
+end Behavior;

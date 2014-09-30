@@ -16,13 +16,13 @@
          <ClosedNode>/RS_Latch_Param - Struct I:|Embedded|_Projects|POCP|Lab03_Syn|L03_Syn|RS_Latch_Param.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>DFF_Enable_Async - Behavioral (I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/DFF_Enable_Async.vhd)</SelectedItem>
+         <SelectedItem>RSFF - Behavioral (I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/RSFF.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000182000000020000000000000000000000000200000064ffffffff000000810000000300000002000001820000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>DFF_Enable_Async - Behavioral (I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/DFF_Enable_Async.vhd)</CurrentItem>
+      <CurrentItem>RSFF - Behavioral (I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/RSFF.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -45,7 +45,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000016f000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000000a30000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002b3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>And2.vhd</CurrentItem>
    </ItemView>
@@ -74,7 +74,7 @@
       <SelectedItems>
          <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
@@ -89,8 +89,8 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" ></ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" />
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

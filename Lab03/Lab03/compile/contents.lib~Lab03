@@ -1,4 +1,4 @@
-3455
+4390
 ~E 1 "./../src/AND2.vhd" 4 AND2
 ~A 1 "./../src/AND2.vhd" 10 Arch
 ~E 1 "./../src/Task1/BistableElement.vhd" 4 BistableElement
@@ -22,9 +22,11 @@
 ~E 1 "./../src/Task5/DFF.vhd" 4 DFF
 ~A 1 "./../src/Task5/DFF.vhd" 9 Behavior
 ~E 1 "./../src/Task6/DFF_Enable_Async.vhd" 3 DFF_Enable_Async
-~A 1 "./../src/Task6/DFF_Enable_Async.vhd" 11 Behavioral
+~A 1 "./../src/Task6/DFF_Enable_Async.vhd" 13 Behavioral
 ~E 1 "./../src/Inv.vhd" 4 Inv
 ~A 1 "./../src/Inv.vhd" 10 Arch
+~E 1 "./../src/Task9/JKFF.vhd" 4 JKFF
+~A 1 "./../src/Task9/JKFF.vhd" 10 Behavioral
 ~E 1 "./../src/Task2/NOR2.vhd" 4 NOR2
 ~A 1 "./../src/NOR2.vhd" 10 Arch
 ~E 1 "./../src/Task2/RS_Latch.vhd" 4 RS_Latch
@@ -35,3 +37,9 @@
 ~A 1 "./../src/Task2/RS_Latch_Param.vhd" 11 Struct
 ~E 1 "./../src/Testbenches/RS_Latch_Test.vhd" 6 RS_Latch_Test
 ~A 1 "./../src/Testbenches/RS_Latch_Test.vhd" 9 Beh
+~E 1 "./../src/Task8/RSFF.vhd" 4 RSFF
+~A 1 "./../src/Task8/RSFF.vhd" 10 Behavioral
+~E 1 "./../src/Task8/RSFF.vhd" 4 SRFF
+~A 1 "./../src/Task8/RSFF.vhd" 10 Behavioral
+~E 1 "./../src/Task7/TFF.vhd" 4 TFF
+~A 1 "./../src/Task7/TFF.vhd" 11 Behavioral

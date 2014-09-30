@@ -3,16 +3,16 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
  
---> Reading design: DFF_Enable_Async.prj
+--> Reading design: RSFF.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -40,16 +40,16 @@ TABLE OF CONTENTS
 *                      Synthesis Options Summary                        *
 =========================================================================
 ---- Source Parameters
-Input File Name                    : "DFF_Enable_Async.prj"
+Input File Name                    : "RSFF.prj"
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
-Output File Name                   : "DFF_Enable_Async"
+Output File Name                   : "RSFF"
 Output Format                      : NGC
 Target Device                      : xc7a100t-3-csg324
 
 ---- Source Options
-Top Module Name                    : DFF_Enable_Async
+Top Module Name                    : RSFF
 Automatic FSM Extraction           : YES
 FSM Encoding Algorithm             : Auto
 Safe Implementation                : No
@@ -105,33 +105,41 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\DFF_Enable_Async.vhd" into library work
-Parsing entity <DFF_Enable_Async>.
-Parsing architecture <Behavioral> of entity <dff_enable_async>.
+Parsing VHDL file "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\RSFF.vhd" into library work
+Parsing entity <RSFF>.
+Parsing architecture <Behavioral> of entity <rsff>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
-Elaborating entity <DFF_Enable_Async> (architecture <Behavioral>) from library <work>.
+Elaborating entity <RSFF> (architecture <Behavioral>) from library <work>.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
-Synthesizing Unit <DFF_Enable_Async>.
-    Related source file is "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\DFF_Enable_Async.vhd".
-    Found 1-bit register for signal <Q>.
+Synthesizing Unit <RSFF>.
+    Related source file is "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\RSFF.vhd".
+    Found 1-bit register for signal <S_clock_DFF_2>.
+    Found 1-bit register for signal <t_q_clock_DFF_1_q>.
+    Found 1-bit tristate buffer for signal <Q> created at line 13
     Summary:
-	inferred   1 D-type flip-flop(s).
-Unit <DFF_Enable_Async> synthesized.
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <RSFF> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 1
- 1-bit register                                        : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Multiplexers                                         : 1
+ 1-bit 2-to-1 multiplexer                              : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
 
 =========================================================================
 
@@ -144,39 +152,21 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 1
- Flip-Flops                                            : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:3001 - This design contains one or more registers or latches with an active
-   asynchronous set and asynchronous reset. While this circuit can be built,
-   it creates a sub-optimal implementation in terms of area, power and
-   performance. For a more optimal implementation Xilinx highly recommends
-   one of the following:
+WARNING:Xst:2041 - Unit RSFF: 1 internal tristate is replaced by logic (pull-up yes): N2.
 
-          1) Remove either the set or reset from all registers and latches if
-             not needed for required functionality
-          2) Modify the code in order to produce a synchronous set
-             and/or reset (both is preferred)
-          3) Use the -async_to_sync option to transform the asynchronous
-             set/reset to synchronous operation
-             (timing simulation highly recommended when using this option)
-
-  Please refer to http://www.xilinx.com search string "Artix7 asynchronous set/reset" for more details.
-
-  List of register instances with asynchronous set and reset:
-    t_q in unit <DFF_Enable_Async>
-
-
-Optimizing unit <DFF_Enable_Async> ...
+Optimizing unit <RSFF> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block DFF_Enable_Async, actual ratio is 0.
+Found area constraint ratio of 100 (+ 5) on block RSFF, actual ratio is 0.
 
 Final Macro Processing ...
 
@@ -204,25 +194,23 @@ Partition Implementation Status
 *                            Design Summary                             *
 =========================================================================
 
-Top Level Output File Name         : DFF_Enable_Async.ngc
+Top Level Output File Name         : RSFF.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 4
+# BELS                             : 5
 #      INV                         : 1
-#      LUT2                        : 1
-#      LUT3                        : 1
-#      VCC                         : 1
-# FlipFlops/Latches                : 3
-#      FDCE                        : 1
-#      FDPE                        : 1
-#      LDC                         : 1
-# Clock Buffers                    : 2
-#      BUFG                        : 1
+#      LUT2                        : 3
+#      LUT4                        : 1
+# FlipFlops/Latches                : 2
+#      FD                          : 1
+#      FDE                         : 1
+# Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 6
-#      IBUF                        : 4
-#      OBUF                        : 2
+# IO Buffers                       : 4
+#      IBUF                        : 2
+#      OBUF                        : 1
+#      OBUFT                       : 1
 
 Device utilization summary:
 ---------------------------
@@ -231,23 +219,23 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:               3  out of  126800     0%  
- Number of Slice LUTs:                    3  out of  63400     0%  
-    Number used as Logic:                 3  out of  63400     0%  
+ Number of Slice Registers:               2  out of  126800     0%  
+ Number of Slice LUTs:                    5  out of  63400     0%  
+    Number used as Logic:                 5  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      6
-   Number with an unused Flip Flop:       3  out of      6    50%  
-   Number with an unused LUT:             3  out of      6    50%  
-   Number of fully used LUT-FF pairs:     0  out of      6     0%  
-   Number of unique control sets:         3
+ Number of LUT Flip Flop pairs used:      7
+   Number with an unused Flip Flop:       5  out of      7    71%  
+   Number with an unused LUT:             2  out of      7    28%  
+   Number of fully used LUT-FF pairs:     0  out of      7     0%  
+   Number of unique control sets:         2
 
 IO Utilization: 
- Number of IOs:                           7
- Number of bonded IOBs:                   7  out of    210     3%  
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    210     2%  
 
 Specific Feature Utilization:
- Number of BUFG/BUFGCTRL/BUFHCEs:         2  out of    128     1%  
+ Number of BUFG/BUFGCTRL/BUFHCEs:         1  out of    128     0%  
 
 ---------------------------
 Partition Resource Summary:
@@ -270,8 +258,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Set                                | IBUF+BUFG              | 1     |
-Clock                              | BUFGP                  | 2     |
+clock                              | BUFGP                  | 2     |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -282,9 +269,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: No path found
-   Minimum input arrival time before clock: 1.110ns
-   Maximum output required time after clock: 1.756ns
+   Minimum period: 0.855ns (Maximum Frequency: 1169.454MHz)
+   Minimum input arrival time before clock: 0.861ns
+   Maximum output required time after clock: 1.126ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -292,101 +279,89 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'Set'
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 0.855ns (frequency: 1169.454MHz)
   Total number of paths / destination ports: 2 / 1
 -------------------------------------------------------------------------
-Offset:              1.110ns (Levels of Logic = 2)
-  Source:            Clear (PAD)
-  Destination:       t_q_LDC (LATCH)
-  Destination Clock: Set falling
+Delay:               0.855ns (Levels of Logic = 1)
+  Source:            S_clock_DFF_2 (FF)
+  Destination:       t_q (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
 
-  Data Path: Clear to t_q_LDC
+  Data Path: S_clock_DFF_2 to t_q
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   0.001   0.379  Clear_IBUF (Clear_IBUF)
-     LUT2:I0->O            2   0.097   0.283  Clear_Set_AND_2_o1 (Clear_Set_AND_2_o)
-     LDC:CLR                   0.349          t_q_LDC
+     FDE:C->Q              3   0.361   0.389  S_clock_DFF_2 (S_clock_DFF_2)
+     LUT4:I2->O            1   0.097   0.000  Mmux_t_q_t_q_MUX_8_o11 (t_q_t_q_MUX_8_o)
+     FD:D                      0.008          t_q
     ----------------------------------------
-    Total                      1.110ns (0.447ns logic, 0.663ns route)
-                                       (40.3% logic, 59.7% route)
+    Total                      0.855ns (0.466ns logic, 0.389ns route)
+                                       (54.5% logic, 45.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
-  Total number of paths / destination ports: 7 / 6
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 6 / 3
 -------------------------------------------------------------------------
-Offset:              1.110ns (Levels of Logic = 2)
-  Source:            Clear (PAD)
-  Destination:       t_q_C (FF)
-  Destination Clock: Clock rising
+Offset:              0.861ns (Levels of Logic = 2)
+  Source:            R (PAD)
+  Destination:       S_clock_DFF_2 (FF)
+  Destination Clock: clock rising
 
-  Data Path: Clear to t_q_C
+  Data Path: R to S_clock_DFF_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   0.001   0.379  Clear_IBUF (Clear_IBUF)
-     LUT2:I0->O            2   0.097   0.283  Clear_Set_AND_2_o1 (Clear_Set_AND_2_o)
-     FDCE:CLR                  0.349          t_q_C
+     IBUF:I->O             3   0.001   0.389  R_IBUF (R_IBUF)
+     LUT2:I0->O            1   0.097   0.279  S_S_OR_2_o1 (S_S_OR_2_o)
+     FDE:CE                    0.095          S_clock_DFF_2
     ----------------------------------------
-    Total                      1.110ns (0.447ns logic, 0.663ns route)
-                                       (40.3% logic, 59.7% route)
+    Total                      0.861ns (0.193ns logic, 0.668ns route)
+                                       (22.4% logic, 77.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Set'
-  Total number of paths / destination ports: 2 / 2
--------------------------------------------------------------------------
-Offset:              1.756ns (Levels of Logic = 3)
-  Source:            t_q_LDC (LATCH)
-  Destination:       nQ (PAD)
-  Source Clock:      Set falling
-
-  Data Path: t_q_LDC to nQ
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDC:G->Q              1   0.472   0.511  t_q_LDC (t_q_LDC)
-     LUT3:I0->O            2   0.097   0.283  t_q1 (t_q)
-     INV:I->O              1   0.113   0.279  nQ1_INV_0 (nQ_OBUF)
-     OBUF:I->O                 0.000          nQ_OBUF (nQ)
-    ----------------------------------------
-    Total                      1.756ns (0.682ns logic, 1.074ns route)
-                                       (38.8% logic, 61.2% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
   Total number of paths / destination ports: 4 / 2
 -------------------------------------------------------------------------
-Offset:              1.513ns (Levels of Logic = 3)
-  Source:            t_q_P (FF)
+Offset:              1.126ns (Levels of Logic = 2)
+  Source:            t_q (FF)
   Destination:       nQ (PAD)
-  Source Clock:      Clock rising
+  Source Clock:      clock rising
 
-  Data Path: t_q_P to nQ
+  Data Path: t_q to nQ
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDPE:C->Q             1   0.361   0.379  t_q_P (t_q_P)
-     LUT3:I1->O            2   0.097   0.283  t_q1 (t_q)
-     INV:I->O              1   0.113   0.279  nQ1_INV_0 (nQ_OBUF)
+     FD:C->Q               3   0.361   0.389  t_q (t_q)
+     LUT2:I0->O            1   0.097   0.279  nQ1 (nQ_OBUF)
      OBUF:I->O                 0.000          nQ_OBUF (nQ)
     ----------------------------------------
-    Total                      1.513ns (0.571ns logic, 0.942ns route)
-                                       (37.7% logic, 62.3% route)
+    Total                      1.126ns (0.458ns logic, 0.668ns route)
+                                       (40.7% logic, 59.3% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    0.855|         |         |         |
+---------------+---------+---------+---------+---------+
+
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.11 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.13 secs
  
 --> 
 
-Total memory usage is 292452 kilobytes
+Total memory usage is 304548 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

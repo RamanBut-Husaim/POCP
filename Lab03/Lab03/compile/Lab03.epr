@@ -1,16 +1,2 @@
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Inv.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\NOR2.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\AND2.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task1\BistableElement.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Testbenches\D_Latch_Test.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Testbenches\RS_Latch_Test.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Testbenches\BistableElement_test.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task2\RS_Latch_Param.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task2\RS_Latch.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task3\D_Latch_Param.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task3\D_Latch.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task4\D_Enable_Latch_Param.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task4\D_Enable_Latch.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task5\DFF.vhd" VHDL Lab03 1 0 0 -02
-"I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task6\DFF_Enable_Async.vhd" VHDL Lab03 1 0 0 -02
+"i:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task9\JKFF.vhd" VHDL Lab03 1 0 0 -02
 . . 0 0 0

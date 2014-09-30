@@ -13,3 +13,6 @@
 .\src\Task4\D_Enable_Latch.vhd
 .\src\Task5\DFF.vhd
 .\src\Task6\DFF_Enable_Async.vhd
+.\src\Task7\TFF.vhd
+.\src\Task8\RSFF.vhd
+.\src\Task9\JKFF.vhd

@@ -1,25 +1,31 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
-entity DFF_Enable_Async IS PORT (
-		Clock: IN std_logic;
-		Enable: IN std_logic;
-		Set: IN std_logic;
-		Clear: IN std_logic;
-		D: IN std_logic;
-		Q: OUT std_logic);
+entity DFF_Enable_Async is port (
+		Clock: in std_logic;
+		Enable: in std_logic;
+		Set: in std_logic;
+		Clear: in std_logic;
+		D: in std_logic;
+		Q, nQ: out std_logic);
 end DFF_Enable_Async;
-architecture Behavioral OF DFF_Enable_Async IS
+
+architecture Behavioral of DFF_Enable_Async is
+	signal t_q: std_logic;
 begin
-	process(Clock,Set,Clear)
+	process (Clock, Set, Clear)
 	begin
 		if (Set = '1') then
-			Q <= '1';
+			t_q <= '1';
 		elsif (Clear = '1') then
-			Q <= '0';
+			t_q <= '0';
 		elsif (Clock'event and Clock = '1') then
 			if Enable = '1' then
-				Q <= D;
+				t_q <= D;
 			end if;
 		end if;
 	end process;
+	
+	Q <= t_q;
+	nQ <= not t_q;
+	
 end Behavioral;
