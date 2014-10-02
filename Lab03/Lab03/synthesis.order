@@ -6,3 +6,4 @@ i<>.\src\Task2\RS_Latch_Param.vhd
 i<>.\src\Task2\RS_Latch.vhd
 i<>.\src\Task3\D_Latch_Param.vhd
 i<>.\src\Task3\D_Latch.vhd
+i<>.\src\D_Enable_Latch_Test.vhd

@@ -1,4 +1,4 @@
-4390
+4395
 ~E 1 "./../src/AND2.vhd" 4 AND2
 ~A 1 "./../src/AND2.vhd" 10 Arch
 ~E 1 "./../src/Task1/BistableElement.vhd" 4 BistableElement
@@ -11,6 +11,8 @@
 ~E 1 "./../src/Task4/D_Enable_Latch_Param.vhd" 4 D_Enable_Latch_Param
 ~A 1 "./../src/Task4/D_Enable_Latch_Param.vhd" 39 Beh
 ~A 1 "./../src/Task4/D_Enable_Latch_Param.vhd" 12 Struct
+~E 1 "./../src/Testbenches/D_Enable_Latch_Test.vhd" 6 D_Enable_Latch_Test
+~A 1 "./../src/Testbenches/D_Enable_Latch_Test.vhd" 9 Beh
 ~E 1 "./../src/Task3/D_Latch.vhd" 4 D_Latch
 ~A 1 "./../src/Task3/D_Latch.vhd" 32 Beh
 ~A 1 "./../src/Task3/D_Latch.vhd" 12 Struct
