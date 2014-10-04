@@ -18,15 +18,15 @@ architecture Struct of RS_Latch_Param is
 begin
 	U1: nor2 port map (a => S, b => t2, z => t1);
 	U2: nor2 port map (a => R, b => t1, z => t2);
-	nQ <= transport t1 after 5 ns;
-	Q <= transport t2 after 3 ns;
+	nQ <= transport t1 after 3 ns;
+	Q <= transport t2 after 2 ns;
 end Struct;
 
-architecture Beh of RS_Latch_Param is
-signal t1, t2: std_logic;
-begin
-	t2 <= R nor t1;
-	t1 <= S nor t2;
-	nQ <= transport t1 after 5 ns;
-	Q <= transport t2 after 3 ns;
-end Beh;
+--architecture Beh of RS_Latch_Param is
+--	signal t1, t2: std_logic;
+--begin
+--	t2 <= R nor t1;
+--	t1 <= S nor t2;
+--	nQ <= transport t1 after 3 ns;
+--	Q <= transport t2 after 2 ns;
+--end Beh;

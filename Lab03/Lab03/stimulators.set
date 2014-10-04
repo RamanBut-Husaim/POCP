@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XML>
  <document type="stimulators" version="1">
-  <set name="ASDB Stimulators" active="1"/>
+  <set name="ASDB Stimulators" active="1">
+   <stimulator>
+    <signal_path value="/BistableElement/t1"/>
+    <rawdescription value="VAL:FRM:Override:1:&lt;= 1:1:"/>
+   </stimulator>
+   <stimulator>
+    <signal_path value="/BistableElement/t2"/>
+    <rawdescription value="VAL:FRM:Override:0:&lt;= 0:0:"/>
+   </stimulator>
+  </set>
  </document>
 </XML>

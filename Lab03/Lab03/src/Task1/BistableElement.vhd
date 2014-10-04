@@ -7,6 +7,7 @@ entity BistableElement is
 		nQ: out std_logic
 		);
 end BistableElement;
+
 architecture Struct of BistableElement is
 	component Inv
 		port (

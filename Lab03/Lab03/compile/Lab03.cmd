@@ -1,1 +1,1 @@
--w -s "i:\Embedded\_Projects\POCP\Lab03\Lab03\library.cfg"  -j "i:\Embedded\_Projects\POCP\Lab03\Lab03\projlib.cfg"  -d "i:\Embedded\_Projects\POCP\Lab03\Lab03\compile"   -work Lab03  -dbg -e 100 -2002 "i:\Embedded\_Projects\POCP\Lab03\Lab03\src\Testbenches\D_Enable_Latch_Test.vhd"
+-w -s "E:\Embedded\Projects\POCP\Lab03\library.cfg"  -j "E:\Embedded\Projects\POCP\Lab03\Lab03\projlib.cfg"  -d "E:\Embedded\Projects\POCP\Lab03\Lab03\compile"   -work Lab03  -dbg -e 100 -2002 "E:\Embedded\Projects\POCP\Lab03\Lab03\src\test.vhd"
