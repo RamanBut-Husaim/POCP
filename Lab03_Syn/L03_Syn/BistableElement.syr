@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.48 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.48 secs
  
 --> Reading design: BistableElement.prj
 
@@ -71,7 +71,7 @@ Reduce Control Sets                : Auto
 Add IO Buffers                     : YES
 Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 32
-Register Duplication               : YES
+Register Duplication               : NO
 Optimize Instantiated Primitives   : NO
 Use Clock Enable                   : Auto
 Use Synchronous Set                : Auto
@@ -105,10 +105,10 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\Inv.vhd" into library work
+Parsing VHDL file "E:\Embedded\Projects\POCP\Lab03_Syn\L03_Syn\Inv.vhd" into library work
 Parsing entity <Inv>.
 Parsing architecture <Arch> of entity <inv>.
-Parsing VHDL file "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\Bistable_Element.vhd" into library work
+Parsing VHDL file "E:\Embedded\Projects\POCP\Lab03_Syn\L03_Syn\Bistable_Element.vhd" into library work
 Parsing entity <BistableElement>.
 Parsing architecture <Struct> of entity <bistableelement>.
 
@@ -125,13 +125,13 @@ Elaborating entity <Inv> (architecture <Arch>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <BistableElement>.
-    Related source file is "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\Bistable_Element.vhd".
+    Related source file is "E:\Embedded\Projects\POCP\Lab03_Syn\L03_Syn\Bistable_Element.vhd".
     Summary:
 	no macro.
 Unit <BistableElement> synthesized.
 
 Synthesizing Unit <Inv>.
-    Related source file is "I:\Embedded\_Projects\POCP\Lab03_Syn\L03_Syn\Inv.vhd".
+    Related source file is "E:\Embedded\Projects\POCP\Lab03_Syn\L03_Syn\Inv.vhd".
     Summary:
 	no macro.
 Unit <Inv> synthesized.
@@ -265,12 +265,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.62 secs
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.63 secs
  
 --> 
 
-Total memory usage is 282532 kilobytes
+Total memory usage is 261752 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

@@ -2,6 +2,7 @@
 .\src\NOR2.vhd
 .\src\AND2.vhd
 .\src\D_Enable_Latch_Test.vhd
+.\src\Test.vhd
 .\src\Task1\BistableElement.vhd
 .\src\Testbenches\D_Enable_Latch_Test.vhd
 .\src\Testbenches\D_Latch_Test.vhd

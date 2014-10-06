@@ -8,7 +8,49 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03_Syn/L03_Syn/JKFF.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/And2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/Bistable_Element.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/DFF.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/DFF_Enable_Async.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/D_Enable_Latch.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/D_Enable_Latch_Param.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/D_Latch.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/D_Latch_Param.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/Inv.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/JKFF.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/Nor2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/RSFF.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/RS_Latch.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/RS_Latch_Param.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Embedded/Projects/POCP/Lab03_Syn/L03_Syn/TFF.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

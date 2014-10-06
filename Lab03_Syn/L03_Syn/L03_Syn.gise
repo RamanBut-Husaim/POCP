@@ -123,6 +123,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="JKFF.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="JKFF.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="JKFF.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="JKFF_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="JKFF_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="JKFF_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RSFF.cmd_log"/>
@@ -169,31 +170,31 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412276154" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2314061653917193726" xil_pn:start_ts="1412276154">
+    <transform xil_pn:end_ts="1412346350" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2314061653917193726" xil_pn:start_ts="1412346350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412276154" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7562661880401945398" xil_pn:start_ts="1412276154">
+    <transform xil_pn:end_ts="1412346350" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7562661880401945398" xil_pn:start_ts="1412346350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412276154" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1412276154">
+    <transform xil_pn:end_ts="1412346350" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1412346350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412276154" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-40109796891587932" xil_pn:start_ts="1412276154">
+    <transform xil_pn:end_ts="1412346350" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-40109796891587932" xil_pn:start_ts="1412346350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412276154" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1412276154">
+    <transform xil_pn:end_ts="1412346350" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1412346350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412276154" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1688139966261797844" xil_pn:start_ts="1412276154">
+    <transform xil_pn:end_ts="1412346350" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1688139966261797844" xil_pn:start_ts="1412346350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412276163" xil_pn:in_ck="205441399640601023" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-588406506094401680" xil_pn:start_ts="1412276154">
+    <transform xil_pn:end_ts="1412346581" xil_pn:in_ck="205441399640601023" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2666966223086850981" xil_pn:start_ts="1412346556">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="JKFF.lso"/>

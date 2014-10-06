@@ -32,7 +32,7 @@ ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
 DVM_DISPLAY=NO
 FAMILY=Xilinx14x ARTIX7
-fileopenfolder=I:\Embedded\_Projects\POCP\Lab03\Lab03\src\Task1
+fileopenfolder=E:\Embedded\Projects\POCP\Lab03\Lab03\src
 SYNTH_STATUS=none
 IMPL_STATUS=NONE
 PHYSSYNTH_STATUS=NONE
@@ -198,7 +198,11 @@ DirectiveCoverageAttr=
 HierarchicalCoverage=0
 
 [HierarchyViewer]
+<<<<<<< HEAD
 HierarchyInformation=d_enable_latch_test|Beh|0  
+=======
+HierarchyInformation=bistableelement|Struct|0 bistableelement_test|Beh|0 rs_latch_test|Beh|0 rslatch_tb|testbench_for_rslatch|1 
+>>>>>>> 071d5d89a07e1ecc684f6bd9da5d56a6e17dc209
 ShowHide=ShowTopLevel
 Selected=
 
@@ -361,28 +365,6 @@ Name7=HTML
 Directory7=I:\Embedded\_Projects\POCP\Lab03\Lab03\
 Extension7=
 
-[Files.Data]
-.\src\Inv.vhd=VHDL Source Code
-.\src\NOR2.vhd=VHDL Source Code
-.\src\AND2.vhd=VHDL Source Code
-.\src\D_Enable_Latch_Test.vhd=VHDL Source Code
-.\src\Task1\BistableElement.vhd=VHDL Source Code
-.\src\Testbenches\D_Latch_Test.vhd=VHDL Source Code
-.\src\Testbenches\RS_Latch_Test.vhd=VHDL Source Code
-.\src\Testbenches\BistableElement_test.vhd=VHDL Source Code
-.\src\Task2\RS_Latch_Param.vhd=VHDL Source Code
-.\src\Task2\RS_Latch.vhd=VHDL Source Code
-.\src\Task3\D_Latch_Param.vhd=VHDL Source Code
-.\src\Task3\D_Latch.vhd=VHDL Source Code
-.\src\Task4\D_Enable_Latch_Param.vhd=VHDL Source Code
-.\src\Task4\D_Enable_Latch.vhd=VHDL Source Code
-.\src\Task5\DFF.vhd=VHDL Source Code
-.\src\Task6\DFF_Enable_Async.vhd=VHDL Source Code
-.\src\Task7\TFF.vhd=VHDL Source Code
-.\src\Task8\RSFF.vhd=VHDL Source Code
-.\src\Task9\JKFF.vhd=VHDL Source Code
-.\src\Testbenches\D_Enable_Latch_Test.vhd=VHDL Source Code
-
 [Groups]
 Task1=1
 Testbenches=1
@@ -400,6 +382,8 @@ Task9=1
 /NOR2.vhd=-1
 /AND2.vhd=-1
 /D_Enable_Latch_Test.vhd=-1
+/Test.vhd=-1
+/tb.do=-1
 Task1/BistableElement.vhd=-1
 Testbenches/D_Enable_Latch_Test.vhd=-1
 Testbenches/D_Latch_Test.vhd=-1
@@ -416,4 +400,28 @@ Task6/DFF_Enable_Async.vhd=-1
 Task7/TFF.vhd=-1
 Task8/RSFF.vhd=-1
 Task9/JKFF.vhd=-1
+
+[Files.Data]
+.\src\Inv.vhd=VHDL Source Code
+.\src\NOR2.vhd=VHDL Source Code
+.\src\AND2.vhd=VHDL Source Code
+.\src\D_Enable_Latch_Test.vhd=VHDL Source Code
+.\src\Test.vhd=VHDL Source Code
+.\src\tb.do=Macro
+.\src\Task1\BistableElement.vhd=VHDL Source Code
+.\src\Testbenches\D_Enable_Latch_Test.vhd=VHDL Source Code
+.\src\Testbenches\D_Latch_Test.vhd=VHDL Source Code
+.\src\Testbenches\RS_Latch_Test.vhd=VHDL Source Code
+.\src\Testbenches\BistableElement_test.vhd=VHDL Source Code
+.\src\Task2\RS_Latch_Param.vhd=VHDL Source Code
+.\src\Task2\RS_Latch.vhd=VHDL Source Code
+.\src\Task3\D_Latch_Param.vhd=VHDL Source Code
+.\src\Task3\D_Latch.vhd=VHDL Source Code
+.\src\Task4\D_Enable_Latch_Param.vhd=VHDL Source Code
+.\src\Task4\D_Enable_Latch.vhd=VHDL Source Code
+.\src\Task5\DFF.vhd=VHDL Source Code
+.\src\Task6\DFF_Enable_Async.vhd=VHDL Source Code
+.\src\Task7\TFF.vhd=VHDL Source Code
+.\src\Task8\RSFF.vhd=VHDL Source Code
+.\src\Task9\JKFF.vhd=VHDL Source Code
 

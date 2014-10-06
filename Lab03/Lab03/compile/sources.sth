@@ -1,4 +1,5 @@
 [Files List]
+<<<<<<< HEAD
 I:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/standard.vhd=S
 I:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/textio.vhd=S
 I:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/std_logic_1164.vhdl=S
@@ -13,3 +14,11 @@ I:\Embedded\_Projects\POCP\Lab03\Lab03/src/AND2.vhd=S
 I:\Embedded\_Projects\POCP\Lab03\Lab03/src/Inv.vhd=S
 I:\Embedded\_Projects\POCP\Lab03\Lab03/src/Task4/D_Enable_Latch.vhd=S
 I:\Embedded\_Projects\POCP\Lab03\Lab03/src/Testbenches/D_Enable_Latch_Test.vhd=S
+=======
+E:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/standard.vhd=S
+E:\Embedded\Aldec\Active-HDL Student Edition\vlib\std/src/textio.vhd=S
+E:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+E:\Embedded\Aldec\Active-HDL Student Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+E:\Embedded\Projects\POCP\Lab03\Lab03/src/Inv.vhd=S
+E:\Embedded\Projects\POCP\Lab03\Lab03/src/Task1/BistableElement.vhd=S
+>>>>>>> 071d5d89a07e1ecc684f6bd9da5d56a6e17dc209
