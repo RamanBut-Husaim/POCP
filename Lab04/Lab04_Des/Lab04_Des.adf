@@ -74,6 +74,7 @@ Task3=1
 /DFF_Enable_Async.vhd=-1
 Task1/AsyncRegister.vhd=-1
 Task2/SyncRegister.vhd=-1
+Task3/ShiftRegister.vhd=-1
 
 [Files.Data]
 .\src\DLatch.vhd=VHDL Source Code
@@ -85,4 +86,5 @@ Task2/SyncRegister.vhd=-1
 .\src\DFF_Enable_Async.vhd=VHDL Source Code
 .\src\Task1\AsyncRegister.vhd=VHDL Source Code
 .\src\Task2\SyncRegister.vhd=VHDL Source Code
+.\src\Task3\ShiftRegister.vhd=VHDL Source Code
 

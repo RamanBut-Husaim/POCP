@@ -7,3 +7,4 @@
 .\src\DFF_Enable_Async.vhd
 .\src\Task1\AsyncRegister.vhd
 .\src\Task2\SyncRegister.vhd
+.\src\Task3\ShiftRegister.vhd

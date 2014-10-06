@@ -6,3 +6,4 @@ i<>.\src\Nor2.vhd
 i<>.\src\DELatch.vhd
 i<>.\src\DESync.vhd
 i<>.\src\DFF_Enable_Async.vhd
+i<>.\src\ShiftRegister.vhd
