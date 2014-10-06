@@ -1,0 +1,4 @@
+MESSAGE "File: I:\Embedded\_Projects\POCP\Lab04\Lab04_Des\src\DFF_Enable_Async.vhd" 
+MESSAGE "Compile Entity "DFF_Enable_Async"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "DFF_Enable_Async"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

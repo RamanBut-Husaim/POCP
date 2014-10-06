@@ -198,7 +198,7 @@ DirectiveCoverageAttr=
 HierarchicalCoverage=0
 
 [HierarchyViewer]
-HierarchyInformation=d_enable_latch_test|Beh|0 d_latch_test|Beh|0 
+HierarchyInformation=d_enable_latch_test|Beh|0  
 ShowHide=ShowTopLevel
 Selected=
 

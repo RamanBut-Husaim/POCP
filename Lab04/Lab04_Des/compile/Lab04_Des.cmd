@@ -1,0 +1,1 @@
+-w -s "I:\Embedded\_Projects\POCP\Lab04\library.cfg"  -j "I:\Embedded\_Projects\POCP\Lab04\Lab04_Des\projlib.cfg"  -d "I:\Embedded\_Projects\POCP\Lab04\Lab04_Des\compile"   -work Lab04_Des  -dbg -e 100 -2002 "I:\Embedded\_Projects\POCP\Lab04\Lab04_Des\src\DFF_Enable_Async.vhd"

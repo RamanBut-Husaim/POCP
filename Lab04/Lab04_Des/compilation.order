@@ -1,0 +1,9 @@
+.\src\DLatch.vhd
+.\src\And2.vhd
+.\src\Inv.vhd
+.\src\Nor2.vhd
+.\src\DELatch.vhd
+.\src\DESync.vhd
+.\src\DFF_Enable_Async.vhd
+.\src\Task1\AsyncRegister.vhd
+.\src\Task2\SyncRegister.vhd
