@@ -8,3 +8,6 @@
 .\src\Task1\AsyncRegister.vhd
 .\src\Task2\SyncRegister.vhd
 .\src\Task3\ShiftRegister.vhd
+.\src\Task4\JC.vhd
+.\src\Task5\LFSR_Out.vhd
+.\src\Task6\LFSR_In.vhd

@@ -63,6 +63,9 @@ Selected=
 Task1=1
 Task2=1
 Task3=1
+Task4=1
+Task5=1
+Task6=1
 
 [Files]
 /DLatch.vhd=-1
@@ -75,6 +78,9 @@ Task3=1
 Task1/AsyncRegister.vhd=-1
 Task2/SyncRegister.vhd=-1
 Task3/ShiftRegister.vhd=-1
+Task4/JC.vhd=-1
+Task5/LFSR_Out.vhd=-1
+Task6/LFSR_In.vhd=-1
 
 [Files.Data]
 .\src\DLatch.vhd=VHDL Source Code
@@ -87,4 +93,7 @@ Task3/ShiftRegister.vhd=-1
 .\src\Task1\AsyncRegister.vhd=VHDL Source Code
 .\src\Task2\SyncRegister.vhd=VHDL Source Code
 .\src\Task3\ShiftRegister.vhd=VHDL Source Code
+.\src\Task4\JC.vhd=VHDL Source Code
+.\src\Task5\LFSR_Out.vhd=VHDL Source Code
+.\src\Task6\LFSR_In.vhd=VHDL Source Code
 

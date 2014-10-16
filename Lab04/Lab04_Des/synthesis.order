@@ -7,3 +7,6 @@ i<>.\src\DELatch.vhd
 i<>.\src\DESync.vhd
 i<>.\src\DFF_Enable_Async.vhd
 i<>.\src\ShiftRegister.vhd
+i<>.\src\JC.vhd
+i<>.\src\LFSR_Out.vhd
+i<>.\src\LFSR_In.vhd
