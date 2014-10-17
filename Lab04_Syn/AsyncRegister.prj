@@ -1,0 +1,2 @@
+vhdl work "../Lab04/Lab04_Des/src/DELatch.vhd"
+vhdl work "AsyncRegister.vhd"

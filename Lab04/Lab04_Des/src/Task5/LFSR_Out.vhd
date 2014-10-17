@@ -25,7 +25,7 @@ Begin
 		end if;
 	end process;
 	
-	Data: process (Pin, sreg)
+	Data: process (LS, Pin, sreg)
 	begin
 		if LS = '0' then
 			sdat <= Pin;

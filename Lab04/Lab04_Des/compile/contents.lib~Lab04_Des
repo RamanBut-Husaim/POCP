@@ -1,4 +1,4 @@
-1298
+535
 ~E 1 "./../src/And2.vhd" 4 AND2
 ~A 1 "./../src/And2.vhd" 10 Arch
 ~E 1 "./../src/Task1/AsyncRegister.vhd" 4 AsyncRegister
@@ -6,7 +6,6 @@
 ~A 1 "./../src/Task1/AsyncRegister.vhd" 13 Struct
 ~E 1 "./../src/DELatch.vhd" 4 D_Enable_Latch
 ~A 1 "./../src/DELatch.vhd" 11 Beh
-~A 1 "./../src/DELatch.vhd" 11 struct
 ~E 1 "./../src/DLatch.vhd" 4 D_Latch
 ~A 1 "./../src/DLatch.vhd" 32 Beh
 ~A 1 "./../src/DLatch.vhd" 12 Struct
@@ -18,15 +17,21 @@
 ~A 1 "./../src/Inv.vhd" 10 Arch
 ~E 1 "./../src/Task4/JC.vhd" 4 JC
 ~A 1 "./../src/Task4/JC.vhd" 15 Beh
+~E 1 "./../src/Testbench/JS_test.vhd" 4 JS_TEST
+~A 1 "./../src/Testbench/JS_test.vhd" 7 Beh
 ~E 1 "./../src/Task6/LFSR_In.vhd" 4 LFSR_In
 ~A 1 "./../src/Task6/LFSR_In.vhd" 15 Beh
+~E 1 "./../src/Testbench/LFSR_In_t.vhd" 4 LFSR_IN_T
+~A 1 "./../src/Testbench/LFSR_In_t.vhd" 7 Beh
 ~E 1 "./../src/Task5/LFSR_Out.vhd" 4 LFSR_Out
 ~A 1 "./../src/Task5/LFSR_Out.vhd" 15 Beh
 ~E 1 "./../src/Nor2.vhd" 4 NOR2
 ~A 1 "./../src/Nor2.vhd" 10 Arch
 ~E 1 "./../src/Task3/ShiftRegister.vhd" 4 ShiftReg
-~A 1 "./../src/Task3/ShiftRegister.vhd" 12 Beh
-~A 1 "./../src/Task3/ShiftRegister.vhd" 31 Struct
+~A 1 "./../src/Task3/ShiftRegister.vhd" 15 Beh
+~A 1 "./../src/Task3/ShiftRegister.vhd" 39 Struct
+~E 1 "./../src/Task7/Signature.vhd" 4 Signature
+~A 1 "./../src/Task7/Signature.vhd" 14 Beh
 ~E 1 "./../src/Task2/SyncRegister.vhd" 4 SyncReg
 ~A 1 "./../src/Task2/SyncRegister.vhd" 30 Beh
 ~A 1 "./../src/Task2/SyncRegister.vhd" 15 Struct

@@ -10,3 +10,6 @@ i<>.\src\ShiftRegister.vhd
 i<>.\src\JC.vhd
 i<>.\src\LFSR_Out.vhd
 i<>.\src\LFSR_In.vhd
+i<>.\src\JS_test.vhd
+i<>.\src\Signature.vhd
+i<>.\src\LFSR_In_t.vhd

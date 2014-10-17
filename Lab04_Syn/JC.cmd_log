@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Embedded/Projects/POCP/Lab04_Syn/JC.xst" -ofn "E:/Embedded/Projects/POCP/Lab04_Syn/JC.syr" 
