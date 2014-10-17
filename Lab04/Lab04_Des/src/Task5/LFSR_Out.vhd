@@ -2,13 +2,13 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity LFSR_Out is
-		generic (i:integer := 2);
-		port(
-			CLK: in std_logic;
-			RST: in std_logic;
-			LS: in std_logic;
-			Pin: in std_logic_vector(0 to 2**i-1);
-			Pout: out std_logic_vector(0 to 2**i-1)
+	generic (i:integer := 2);
+	port(
+		CLK: in std_logic;
+		RST: in std_logic;
+		LS: in std_logic;
+		Pin: in std_logic_vector(0 to 2**i-1);
+		Pout: out std_logic_vector(0 to 2**i-1)
 		);
 end LFSR_Out;
 
@@ -25,7 +25,7 @@ Begin
 		end if;
 	end process;
 	
-	Data: process (LS, Pin, sreg)
+	Data: process (Pin, sreg)
 	begin
 		if LS = '0' then
 			sdat <= Pin;
@@ -34,5 +34,5 @@ Begin
 		end if;
 	end process;
 	
-	Pout <= sdat;
+	Pout <= sreg;
 End Beh;

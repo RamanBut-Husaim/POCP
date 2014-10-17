@@ -34,5 +34,5 @@ Begin
 		end if;
 	end process;
 	
-	Pout <= sdat;
+	Pout <= sreg;
 End Beh;
