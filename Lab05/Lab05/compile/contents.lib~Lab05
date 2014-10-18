@@ -1,0 +1,9 @@
+129
+~E 1 "./../compile/Task1.vhd" 26 Task1
+~A 1 "./../compile/Task1.vhd" 34 Beh
+~E 1 "./../compile/Task2.vhd" 26 task2
+~A 1 "./../compile/Task2.vhd" 34 Beh
+~E 1 "./../compile/Task3.vhd" 26 Task3
+~A 1 "./../compile/Task3.vhd" 34 Beh
+~E 1 "./../compile/Task4.vhd" 26 Task4
+~A 1 "./../compile/Task4.vhd" 34 Beh
