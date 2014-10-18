@@ -8,7 +8,7 @@ Current Config=compile
 compile=Lab05
 
 [Library]
-Lab05=.\Lab05\Lab05.lib
+Lab05=.\Lab05.LIB
 
 [Settings]
 AccessRead=0
@@ -47,17 +47,80 @@ Active_lib=
 [IMPLEMENTATION]
 UCF=
 
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=task1|Beh|0 task1_ent_tb1|task1_cfg_tb1|1 
+ShowHide=ShowTopLevel
+Selected=
+SortInfo=u
+
+[Groups]
+Task1_TB=1
+Task2_TB=1
+Task3_TB=1
+Task4_TB=1
+
 [Files]
 /Task1.asf=-1
 /Task2.asf=-1
 /Task3.asf=-1
 /Task4.asf=-1
+Task1_TB/Task1_tb1.do=-1
+Task1_TB/Task1_tb1.vhd=-1
+Task1_TB/Task1_tb2.do=-1
+Task1_TB/Task1_tb2.vhd=-1
+Task1_TB/Task1_tb3.do=-1
+Task1_TB/Task1_tb3.vhd=-1
+Task2_TB/Task2_tb1.do=-1
+Task2_TB/Task2_tb1.vhd=-1
+Task2_TB/Task2_tb2.do=-1
+Task2_TB/Task2_tb2.vhd=-1
+Task2_TB/Task2_tb3.do=-1
+Task2_TB/Task2_tb3.vhd=-1
+Task3_TB/Task3_tb1.do=-1
+Task3_TB/Task3_tb1.vhd=-1
+Task3_TB/Task3_tb2.do=-1
+Task3_TB/Task3_tb2.vhd=-1
+Task3_TB/Task3_tb3.do=-1
+Task3_TB/Task3_tb3.vhd=-1
+Task4_TB/Task4_tb1.do=-1
+Task4_TB/Task4_tb1.vhd=-1
+Task4_TB/Task4_tb2.do=-1
+Task4_TB/Task4_tb2.vhd=-1
+Task4_TB/Task4_tb3.do=-1
+Task4_TB/Task4_tb3.vhd=-1
 
 [Files.Data]
 .\src\Task1.asf=State Diagram
 .\src\Task2.asf=State Diagram
 .\src\Task3.asf=State Diagram
 .\src\Task4.asf=State Diagram
+.\src\Task1_TB\Task1_tb1.do=Macro
+.\src\Task1_TB\Task1_tb1.vhd=VHDL Test Bench
+.\src\Task1_TB\Task1_tb2.do=Macro
+.\src\Task1_TB\Task1_tb2.vhd=VHDL Test Bench
+.\src\Task1_TB\Task1_tb3.do=Macro
+.\src\Task1_TB\Task1_tb3.vhd=VHDL Test Bench
+.\src\Task2_TB\Task2_tb1.do=Macro
+.\src\Task2_TB\Task2_tb1.vhd=VHDL Test Bench
+.\src\Task2_TB\Task2_tb2.do=Macro
+.\src\Task2_TB\Task2_tb2.vhd=VHDL Test Bench
+.\src\Task2_TB\Task2_tb3.do=Macro
+.\src\Task2_TB\Task2_tb3.vhd=VHDL Test Bench
+.\src\Task3_TB\Task3_tb1.do=Macro
+.\src\Task3_TB\Task3_tb1.vhd=VHDL Test Bench
+.\src\Task3_TB\Task3_tb2.do=Macro
+.\src\Task3_TB\Task3_tb2.vhd=VHDL Test Bench
+.\src\Task3_TB\Task3_tb3.do=Macro
+.\src\Task3_TB\Task3_tb3.vhd=VHDL Test Bench
+.\src\Task4_TB\Task4_tb1.do=Macro
+.\src\Task4_TB\Task4_tb1.vhd=VHDL Test Bench
+.\src\Task4_TB\Task4_tb2.do=Macro
+.\src\Task4_TB\Task4_tb2.vhd=VHDL Test Bench
+.\src\Task4_TB\Task4_tb3.do=Macro
+.\src\Task4_TB\Task4_tb3.vhd=VHDL Test Bench
 
 [file_out:/Task1.asf]
 /..\compile\Task1.vhd=-1
@@ -71,9 +134,3 @@ UCF=
 [file_out:/Task4.asf]
 /..\compile\Task4.vhd=-1
 
-[SpecTracer]
-WindowVisible=0
-[HierarchyViewer]
-HierarchyInformation=
-ShowHide=ShowTopLevel
-Selected=

@@ -1,8 +1,8 @@
 MESSAGE "Loading State Diagram data..."
-MESSAGE "Generating I:\Embedded\_Projects\POCP\Lab05\Lab05\compile\Task2.vhd from I:\Embedded\_Projects\POCP\Lab05\Lab05\src\Task2.asf"
+MESSAGE "Generating E:\Embedded\Projects\POCP\Lab05\Lab05\compile\Task2.vhd from E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task2.asf"
 MESSAGE "Synthesis attributes will be generated for Synopsys FPGA Express"
-FSM2VHDL_WARNING FSM2HDL_4028 "Attribute ENUM_ENCODING is not supported for Symbolic encoding." "I:\Embedded\_Projects\POCP\Lab05\Lab05\src\Task2.asf" 5
-FSM2VHDL_WARNING FSM2HDL_3027 "There is no exit from state S4" "I:\Embedded\_Projects\POCP\Lab05\Lab05\src\Task2.asf" 19
+FSM2VHDL_WARNING FSM2HDL_4028 "Attribute ENUM_ENCODING is not supported for Symbolic encoding." "E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task2.asf" 5
+FSM2VHDL_WARNING FSM2HDL_3027 "There is no exit from state S4" "E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task2.asf" 19
 MESSAGE "Generating interface file..."
 MESSAGE "HDL code generation completed. 0 error(s), 2 warning(s)"
 MESSAGE "Double-click on error/warning line to see the source of error/warning."

@@ -1,0 +1,25 @@
+MESSAGE "Generating testbench for file: E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task4.asf"
+WARNING ASFTEST_401 " ';' expected at the end of statement: 'OP<=""10""'" "E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task4.asf" 15
+WARNING ASFTEST_401 " ';' expected at the end of statement: 'OP<=""11""'" "E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task4.asf" 19
+WARNING ASFTEST_652 "Dead transition 'S0'->'S1'; Cannot traverse over Condition IP=""0011""" "E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task4.asf" 42
+WARNING ASFTEST_649 "ASFTEST (v.2.1.3 build 56, August 25, 2005) does not support full STD_LOGIC type, testbench may be incorrect" "E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task4.asf" 24
+MESSAGE " Generating testbench using strategy 1..."
+MESSAGE "Test quality for strategy 1 :"
+MESSAGE " States      : 100.00 %"
+MESSAGE " Transitions : 45.45 %"
+MESSAGE " Test length : 5"
+MESSAGE " Time        :   0.1 sec."
+MESSAGE " Generating testbench using strategy 2..."
+WARNING ASFTEST_648 "Transition 'IP=""0011""'  'S0'->'S1' is absent in the generated testbench" "E:\Embedded\Projects\POCP\Lab05\Lab05\src\Task4.asf" 42
+MESSAGE "Test quality for strategy 2 :"
+MESSAGE " States      : 100.00 %"
+MESSAGE " Transitions : 90.91 %"
+MESSAGE " Test length : 14"
+MESSAGE " Time        :   0.1 sec."
+MESSAGE " Generating testbench using strategy 3..."
+MESSAGE "Test quality for strategy 3 :"
+MESSAGE " States      : 100.00 %"
+MESSAGE " Transitions : 45.45 %"
+MESSAGE " Test length : 15"
+MESSAGE " Time        :   0.1 sec."
+MESSAGE "FSM testbench generation completed. 0 error(s), 5 warning(s)"

@@ -1,4 +1,4 @@
-component task2
+component Task2
 	port (
 		CLK: in STD_LOGIC;
 		IP: in STD_LOGIC_VECTOR (3 downto 0);
@@ -7,7 +7,7 @@ component task2
 end component;
 
 
-instance_name : task2
+instance_name : Task2
 ( CLK => ,
   IP => ,
   OP => ,
