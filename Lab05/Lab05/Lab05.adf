@@ -51,7 +51,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=task1|Beh|0 task1_ent_tb1|task1_cfg_tb1|1 
+HierarchyInformation=task1_ent_tb1|task1_cfg_tb1|1 
 ShowHide=ShowTopLevel
 Selected=
 SortInfo=u

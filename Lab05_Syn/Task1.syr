@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.31 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.32 secs
+Total CPU time to Xst completion: 0.31 secs
  
 --> Reading design: Task1.prj
 
@@ -51,7 +51,7 @@ Target Device                      : xc7a100t-3-csg324
 ---- Source Options
 Top Module Name                    : Task1
 Automatic FSM Extraction           : YES
-FSM Encoding Algorithm             : Auto
+FSM Encoding Algorithm             : Johnson
 Safe Implementation                : No
 FSM Style                          : LUT
 RAM Extraction                     : Yes
@@ -134,7 +134,7 @@ Synthesizing Unit <Task1>.
     | Reset type         | synchronous                                    |
     | Reset State        | s0                                             |
     | Power Up State     | s0                                             |
-    | Encoding           | auto                                           |
+    | Encoding           | Johnson                                        |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
     Summary:
@@ -165,8 +165,7 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <FSM_0> on signal <state[1:3]> with gray encoding.
+Optimizing FSM <FSM_0> on signal <state[1:3]> with Johnson encoding.
 -------------------
  State | Encoding
 -------------------
@@ -174,7 +173,7 @@ Optimizing FSM <FSM_0> on signal <state[1:3]> with gray encoding.
  s1    | 001
  s2    | 011
  s3    | 110
- s4    | 010
+ s4    | 111
 -------------------
 
 Optimizing unit <Task1> ...
@@ -213,9 +212,9 @@ Top Level Output File Name         : Task1.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 8
-#      LUT2                        : 2
-#      LUT3                        : 3
+# BELS                             : 9
+#      LUT2                        : 5
+#      LUT3                        : 1
 #      LUT6                        : 3
 # FlipFlops/Latches                : 3
 #      FDR                         : 3
@@ -233,14 +232,14 @@ Selected Device : 7a100tcsg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:               3  out of  126800     0%  
- Number of Slice LUTs:                    8  out of  63400     0%  
-    Number used as Logic:                 8  out of  63400     0%  
+ Number of Slice LUTs:                    9  out of  63400     0%  
+    Number used as Logic:                 9  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     11
-   Number with an unused Flip Flop:       8  out of     11    72%  
-   Number with an unused LUT:             3  out of     11    27%  
-   Number of fully used LUT-FF pairs:     0  out of     11     0%  
+ Number of LUT Flip Flop pairs used:      9
+   Number with an unused Flip Flop:       6  out of      9    66%  
+   Number with an unused LUT:             0  out of      9     0%  
+   Number of fully used LUT-FF pairs:     3  out of      9    33%  
    Number of unique control sets:         1
 
 IO Utilization: 
@@ -282,9 +281,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 0.991ns (Maximum Frequency: 1008.776MHz)
-   Minimum input arrival time before clock: 1.422ns
-   Maximum output required time after clock: 1.267ns
+   Minimum period: 0.987ns (Maximum Frequency: 1013.069MHz)
+   Minimum input arrival time before clock: 1.412ns
+   Maximum output required time after clock: 1.135ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -293,66 +292,66 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
-  Clock period: 0.991ns (frequency: 1008.776MHz)
+  Clock period: 0.987ns (frequency: 1013.069MHz)
   Total number of paths / destination ports: 9 / 3
 -------------------------------------------------------------------------
-Delay:               0.991ns (Levels of Logic = 1)
-  Source:            state_FSM_FFd2 (FF)
+Delay:               0.987ns (Levels of Logic = 1)
+  Source:            state_FSM_FFd1 (FF)
   Destination:       state_FSM_FFd1 (FF)
   Source Clock:      CLK rising
   Destination Clock: CLK rising
 
-  Data Path: state_FSM_FFd2 to state_FSM_FFd1
+  Data Path: state_FSM_FFd1 to state_FSM_FFd1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              4   0.361   0.525  state_FSM_FFd2 (state_FSM_FFd2)
-     LUT6:I3->O            1   0.097   0.000  state_FSM_FFd3-In (state_FSM_FFd3-In)
-     FDR:D                     0.008          state_FSM_FFd3
+     FDR:C->Q              3   0.361   0.521  state_FSM_FFd1 (state_FSM_FFd1)
+     LUT6:I3->O            1   0.097   0.000  state_FSM_FFd2-In (state_FSM_FFd2-In)
+     FDR:D                     0.008          state_FSM_FFd2
     ----------------------------------------
-    Total                      0.991ns (0.466ns logic, 0.525ns route)
-                                       (47.0% logic, 53.0% route)
+    Total                      0.987ns (0.466ns logic, 0.521ns route)
+                                       (47.2% logic, 52.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 18 / 6
+  Total number of paths / destination ports: 17 / 6
 -------------------------------------------------------------------------
-Offset:              1.422ns (Levels of Logic = 3)
-  Source:            IP<2> (PAD)
-  Destination:       state_FSM_FFd3 (FF)
+Offset:              1.412ns (Levels of Logic = 3)
+  Source:            IP<3> (PAD)
+  Destination:       state_FSM_FFd1 (FF)
   Destination Clock: CLK rising
 
-  Data Path: IP<2> to state_FSM_FFd3
+  Data Path: IP<3> to state_FSM_FFd1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             4   0.001   0.525  IP_2_IBUF (IP_2_IBUF)
-     LUT3:I0->O            1   0.097   0.693  state_FSM_FFd3-In_SW1 (N11)
-     LUT6:I0->O            1   0.097   0.000  state_FSM_FFd3-In (state_FSM_FFd3-In)
-     FDR:D                     0.008          state_FSM_FFd3
+     IBUF:I->O             4   0.001   0.525  IP_3_IBUF (IP_3_IBUF)
+     LUT3:I0->O            1   0.097   0.683  state_FSM_FFd1-In_SW0_SW1 (N9)
+     LUT6:I1->O            1   0.097   0.000  state_FSM_FFd1-In (state_FSM_FFd1-In)
+     FDR:D                     0.008          state_FSM_FFd1
     ----------------------------------------
-    Total                      1.422ns (0.203ns logic, 1.219ns route)
-                                       (14.3% logic, 85.7% route)
+    Total                      1.412ns (0.203ns logic, 1.209ns route)
+                                       (14.4% logic, 85.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
   Total number of paths / destination ports: 4 / 2
 -------------------------------------------------------------------------
-Offset:              1.267ns (Levels of Logic = 2)
-  Source:            state_FSM_FFd1 (FF)
-  Destination:       OP<0> (PAD)
+Offset:              1.135ns (Levels of Logic = 2)
+  Source:            state_FSM_FFd3 (FF)
+  Destination:       OP<1> (PAD)
   Source Clock:      CLK rising
 
-  Data Path: state_FSM_FFd1 to OP<0>
+  Data Path: state_FSM_FFd3 to OP<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              5   0.361   0.530  state_FSM_FFd1 (state_FSM_FFd1)
-     LUT3:I0->O            1   0.097   0.279  state_OP<0>1 (OP_0_OBUF)
-     OBUF:I->O                 0.000          OP_0_OBUF (OP<0>)
+     FDR:C->Q              5   0.361   0.398  state_FSM_FFd3 (state_FSM_FFd3)
+     LUT2:I0->O            1   0.097   0.279  state_OP<1>1 (OP_1_OBUF)
+     OBUF:I->O                 0.000          OP_1_OBUF (OP<1>)
     ----------------------------------------
-    Total                      1.267ns (0.458ns logic, 0.809ns route)
-                                       (36.1% logic, 63.9% route)
+    Total                      1.135ns (0.458ns logic, 0.677ns route)
+                                       (40.3% logic, 59.7% route)
 
 =========================================================================
 
@@ -364,18 +363,18 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    0.991|         |         |         |
+CLK            |    0.987|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 12.31 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 20.06 secs
  
 --> 
 
-Total memory usage is 330652 kilobytes
+Total memory usage is 263004 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
