@@ -1,0 +1,9 @@
+.\src\RegFile.vhd
+.\src\RegN.vhd
+.\src\RAM.vhd
+.\src\LIFO.vhd
+.\src\RAM_Ham.vhd
+.\src\Testbenches\RAM_Ham_T.vhd
+.\src\Testbenches\LIFO_T.vhd
+.\src\Testbenches\RAM_T.vhd
+.\src\Testbenches\RegFile_T.vhd

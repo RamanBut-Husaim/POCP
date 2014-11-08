@@ -55,7 +55,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=js_test|Beh|0 lfsr_in|Beh|0 lfsr_in_t|Beh|0 
+HierarchyInformation= 
 ShowHide=ShowTopLevel
 Selected=
 
