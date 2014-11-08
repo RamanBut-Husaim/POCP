@@ -47,18 +47,6 @@ Active_lib=
 [IMPLEMENTATION]
 UCF=
 
-[Files.Data]
-.\src\RegFile.vhd=VHDL Source Code
-.\src\RegN.vhd=VHDL Source Code
-.\src\RAM.vhd=VHDL Source Code
-.\src\LIFO.vhd=VHDL Source Code
-.\src\RAM_Ham.vhd=VHDL Source Code
-.\src\RAM_Ham_T.vhd=VHDL Source Code
-.\src\Testbenches\LIFO_T.vhd=VHDL Source Code
-.\src\Testbenches\RAM_T.vhd=VHDL Source Code
-.\src\Testbenches\RegFile_T.vhd=VHDL Source Code
-.\src\Testbenches\RAM_Ham_T.vhd=VHDL Source Code
-
 [Groups]
 Testbenches=1
 
@@ -73,3 +61,20 @@ Testbenches/LIFO_T.vhd=-1
 Testbenches/RAM_T.vhd=-1
 Testbenches/RegFile_T.vhd=-1
 
+[Files.Data]
+.\src\RegFile.vhd=VHDL Source Code
+.\src\RegN.vhd=VHDL Source Code
+.\src\RAM.vhd=VHDL Source Code
+.\src\LIFO.vhd=VHDL Source Code
+.\src\RAM_Ham.vhd=VHDL Source Code
+.\src\Testbenches\RAM_Ham_T.vhd=VHDL Source Code
+.\src\Testbenches\LIFO_T.vhd=VHDL Source Code
+.\src\Testbenches\RAM_T.vhd=VHDL Source Code
+.\src\Testbenches\RegFile_T.vhd=VHDL Source Code
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=lifo_t|Beh|0 ram_ham_t|Beh|0 ram_t|Beh|0 regfile_t|Beh|0 regn|Beh|0 
+ShowHide=ShowTopLevel
+Selected=
