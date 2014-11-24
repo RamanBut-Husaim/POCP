@@ -1,2 +1,6 @@
 i<>.\src\TrafficLights.vhd
 i<>.\src\traffic_lights_t.vhd
+i<>.\src\MROM.vhd
+i<>.\src\MRAM.vhd
+i<>.\src\DPATH.vhd
+i<>.\src\CTRL1.vhd

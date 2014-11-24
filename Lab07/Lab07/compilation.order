@@ -1,2 +1,6 @@
 .\src\TrafficLights.vhd
+.\src\MROM.vhd
+.\src\MRAM.vhd
+.\src\DPATH.vhd
+.\src\CTRL1.vhd
 .\src\Testbenches\traffic_lights_t.vhd
