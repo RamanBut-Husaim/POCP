@@ -4,3 +4,5 @@ i<>.\src\MROM.vhd
 i<>.\src\MRAM.vhd
 i<>.\src\DPATH.vhd
 i<>.\src\CTRL1.vhd
+i<>.\src\MaxFinder.vhd
+i<>.\src\max_finder_t.vhd

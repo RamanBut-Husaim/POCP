@@ -9,24 +9,26 @@ entity CTRL1 is
 		
 		-- ПЗУ
 		ROM_re: out std_logic;
-		ROM_adr: out std_logic_vector(2 downto 0);
-		ROM_dout: in std_logic_vector(5 downto 0);
+		ROM_adr: out std_logic_vector(5 downto 0);
+		ROM_dout: in std_logic_vector(8 downto 0);
 		
 		-- ОЗУ
 		RAM_rw: out std_logic;
-		RAM_adr: out std_logic_vector(2 downto 0);
+		RAM_adr: out std_logic_vector(5 downto 0);
 		RAM_din: out std_logic_vector(7 downto 0);
 		RAM_dout: in std_logic_vector(7 downto 0);
 		--datapath
 		DP_op1: out std_logic_vector(7 downto 0);
 		DP_ot: out std_logic_vector(2 downto 0);
 		DP_en: out std_logic;
-		DP_res: in std_logic_vector(7 downto 0)
+		DP_res: in std_logic_vector(7 downto 0);
+		DP_zf: in std_logic;
+		DP_sbf: in std_logic
 		);
 end CTRL1;
 
 architecture Beh of CTRL1 is
-	type states is (I, F, D, R, L, S, A, M, H);
+	type states is (I, F, D, R, L, S, A, SB, H, JZ, JSB);
 	--I - idle -
 	--F - fetch
 	--D - decode
@@ -34,25 +36,29 @@ architecture Beh of CTRL1 is
 	--L - load
 	--S - store
 	--A - add
-	--M - mul
+	--SB - sub
 	--H - halt
+	--JZ - jump if not zero flag
+	--JSB - jump if not sign bit set
 	signal nxt_state, cur_state: states;
 	--регистр выбранной инструкции
-	signal RI: std_logic_vector(5 downto 0);
+	signal RI: std_logic_vector(8 downto 0);
 	--регистр счетчика инструкций
-	signal IC: std_logic_vector(2 downto 0);
+	signal IC: std_logic_vector(5 downto 0);
 	--регистр типа операции
 	signal RO: std_logic_vector(2 downto 0);
 	--регистр адреса памяти
-	signal RA: std_logic_vector(2 downto 0);
-	--ригистр данных
+	signal RA: std_logic_vector(5 downto 0);
+	--регистр данных
 	signal RD: std_logic_vector(7 downto 0);
 	
 	constant LOAD: std_logic_vector(2 downto 0) := "000";
 	constant STORE: std_logic_vector(2 downto 0) := "001";
 	constant ADD: std_logic_vector(2 downto 0) := "010";
-	constant MUL: std_logic_vector(2 downto 0) := "011";
+	constant SUB: std_logic_vector(2 downto 0) := "011";
 	constant HALT: std_logic_vector(2 downto 0) := "100";
+	constant JNZ: std_logic_vector(2 downto 0) := "101";
+	constant JNSB: std_logic_vector(2 downto 0) := "110";
 begin
 	--синхронная память
 	FSM: process(CLK, RST, nxt_state)
@@ -63,6 +69,7 @@ begin
 			cur_state <= nxt_state;
 		end if;
 	end process;
+	
 	-- Комбинационная часть. Выработка след. состояния
 	COMB: process(cur_state, start, RO)
 	begin
@@ -79,6 +86,10 @@ begin
 					nxt_state <= H;
 				elsif (RO = STORE) then
 					nxt_state <= S;
+				elsif (RO = JNZ) then
+					nxt_state <= JZ;
+				elsif (RO = JNSB) then
+					nxt_state <= JSB;
 				else
 					nxt_state <= R;
 			end if;
@@ -87,12 +98,12 @@ begin
 					nxt_state <= L;
 				elsif (RO = ADD) then
 					nxt_state <= A;
-				elsif (RO = MUL) then
-					nxt_state <= M;
+				elsif (RO = SUB) then
+					nxt_state <= SB;
 				else
 					nxt_state <= I;
 			end if;
-			when L | S | A | M => nxt_state <= F;
+			when L | S | A | SB | JZ | JSB => nxt_state <= F;
 			when H => nxt_state <= H;
 			when others => nxt_state <= I;
 		end case;
@@ -112,10 +123,14 @@ begin
 	PMC: process (CLK, RST, cur_state)
 	begin
 		if (RST = '1') then
-			IC <= "000";
+			IC <= "000000";
 		elsif falling_edge(CLK) then
 			if (cur_state = D) then
 				IC <= IC + 1;
+			elsif (cur_state = JZ and DP_ZF = '0') then
+				IC <= RA;
+			elsif (cur_state = JSB and DP_SBF = '0') then
+				IC <= RA;
 			end if;
 		end if;
 	end process;
@@ -136,24 +151,30 @@ begin
 	PROMDAT: process (RST, cur_state, ROM_dout)
 	begin
 		if (RST = '1') then
-			RI <= "000000";
+			RI <= "000000000";
 		elsif (cur_state = F) then
 			RI <= ROM_dout;
 		end if;
 	end process;
+	
 	-- схема управления регистрами RO и RA
 	PRORA: process (RST, nxt_state, RI)
 	begin
 		if (RST = '1') then
 			RO <= "000";
-			RA <= "000";
+			RA <= "000000";
 		elsif (nxt_state = D) then
-			RO <= RI (5 downto 3);
-			RA <= RI (2 downto 0);
+			RO <= RI (8 downto 6);
+			RA <= RI (5 downto 0);
 		end if;
 	end process;
 	
-	RAM_adr <= RA;
+	PRAMST: process (RA)
+	begin
+		if (cur_state /= JZ and cur_state /= JSB) then
+			RAM_adr <= RA;
+		end if;
+	end process;
 	
 	--управляющий сигнал чтения/записи в RAM
 	PRAMREAD: process (cur_state)
@@ -180,9 +201,9 @@ begin
 	--передача значения регистра RO на входную шину типа операций
 	DP_ot <= RO;
 	
-	paddmulen: process (cur_state)
+	paddsuben: process (cur_state)
 	begin
-		if (cur_state = A or cur_state = M or cur_state = L) then
+		if (cur_state = A or cur_state = SB or cur_state = L) then
 			DP_en <= '1';
 		else
 			DP_en <= '0';

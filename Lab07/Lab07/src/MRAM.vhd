@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.all;
 entity MRAM is
 	port (
 		RW: in std_logic;
-		ADR: in std_logic_vector(2 downto 0);
+		ADR: in std_logic_vector(5 downto 0);
 		DIN: in std_logic_vector (7 downto 0);
 		DOUT: out std_logic_vector (7 downto 0)
 		);
@@ -13,13 +13,16 @@ end MRAM;
 
 architecture Beh of MRAM is
 	subtype byte is std_logic_vector(7 downto 0);
-	type tRAM is array (0 to 7) of byte;
+	type tRAM is array (0 to 63) of byte;
 	signal RAM : tRAM :=(
-		"00000001",	 -- 000 | a = 1
-		"00000010", -- 001 | b = 2
-		"00000011", -- 010 | c = 3
-		"00000100", -- 011 | x = 4
-		"00000000", -- 100 | f
+		"00000101",	-- 5 | 000000 | array length
+		"00000011", -- 3 | 000001 | a[0]
+		"00000001", -- 1 | 000010 | a[1]
+		"00000010", -- 2 | 000011 | a[2]
+		"00000100", -- 4 | 000100 | a[3]
+		"00000101", -- 5 | 000101 | a[4]
+		"00000000", -- 0 | 000110 |	result
+		"00000001", -- 1 | 000111 | 1 for add and sub
 		others => "00000000"
 	);
 	signal data_in: byte;

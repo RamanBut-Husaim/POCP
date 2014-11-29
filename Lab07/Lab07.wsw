@@ -10,4 +10,9 @@ TemplateId=0
 TemplateId=0
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\Lab07\src\CTRL1.vhd|]
 TemplateId=0
-ActiveDocument=1
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Lab07\src\MaxFinder.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Lab07\src\max_finder_t.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Lab07\src\Testbenches\max_finder_t.vhd|]
+TemplateId=0

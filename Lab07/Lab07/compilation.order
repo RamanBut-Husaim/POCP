@@ -3,4 +3,6 @@
 .\src\MRAM.vhd
 .\src\DPATH.vhd
 .\src\CTRL1.vhd
+.\src\MaxFinder.vhd
+.\src\Testbenches\max_finder_t.vhd
 .\src\Testbenches\traffic_lights_t.vhd

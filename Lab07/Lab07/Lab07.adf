@@ -51,16 +51,16 @@ DESIGNS=ARTIX7
 [IMPLEMENTATION]
 UCF=
 
-[Groups]
-Testbenches=1
-
 [SpecTracer]
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=traffic_lights_t|Beh|0 
+HierarchyInformation=max_finder_t|Beh|0 traffic_lights_t|Beh|0 
 ShowHide=ShowTopLevel
 Selected=
+
+[Groups]
+Testbenches=1
 
 [Files]
 /TrafficLights.vhd=-1
@@ -68,6 +68,8 @@ Selected=
 /MRAM.vhd=-1
 /DPATH.vhd=-1
 /CTRL1.vhd=-1
+/MaxFinder.vhd=-1
+Testbenches/max_finder_t.vhd=-1
 Testbenches/traffic_lights_t.vhd=-1
 
 [Files.Data]
@@ -76,5 +78,7 @@ Testbenches/traffic_lights_t.vhd=-1
 .\src\MRAM.vhd=VHDL Source Code
 .\src\DPATH.vhd=VHDL Source Code
 .\src\CTRL1.vhd=VHDL Source Code
+.\src\MaxFinder.vhd=VHDL Source Code
+.\src\Testbenches\max_finder_t.vhd=VHDL Source Code
 .\src\Testbenches\traffic_lights_t.vhd=VHDL Source Code
 
