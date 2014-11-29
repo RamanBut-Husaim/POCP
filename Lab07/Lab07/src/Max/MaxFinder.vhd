@@ -82,13 +82,13 @@ architecture Beh of MaxFinder is
 	signal dp_zf: std_logic;
 	signal dp_sbf: std_logic;
 begin
-	UMRAM: MRAM port map(
+	UMRAM: entity MRAM (Beh_Max) port map(
 		RW => ram_rw,
 		ADR => ram_adr,
 		DIN => ram_din,
 		DOUT => ram_dout
 		);
-	UMROM: MROM port map (
+	UMROM: entity MROM (Beh_Max) port map (
 		RE => rom_re,
 		ADR => rom_adr,
 		DOUT => rom_dout

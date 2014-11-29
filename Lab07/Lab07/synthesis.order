@@ -6,3 +6,5 @@ i<>.\src\DPATH.vhd
 i<>.\src\CTRL1.vhd
 i<>.\src\MaxFinder.vhd
 i<>.\src\max_finder_t.vhd
+i<>.\src\ZeroCounter.vhd
+i<>.\src\zero_counter_t.vhd
