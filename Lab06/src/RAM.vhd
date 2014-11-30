@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.all;
 
 entity RAM is
 	generic(
-		-- шина данный
+		-- шина данных
 		m: integer := 2;
 		-- шина адреса
 		n: integer := 2

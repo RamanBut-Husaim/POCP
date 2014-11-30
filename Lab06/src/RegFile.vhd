@@ -5,22 +5,14 @@ use IEEE.STD_LOGIC_UNSIGNED.all;
 
 entity RegFile is
 	generic (
-		-- инициализация регистра плюс разрядной шины данных
 		INITREG: std_logic_vector := "0000";
-		-- разрядность шины адреса
 		a: integer := 2);
 	port (
-		-- сигнал инициализации регистров
 		INIT: in std_logic;				 
-		-- шина данных для записи
 		WDP: in std_logic_vector(INITREG'range);
-		-- шина адреса для записи
 		WA: in std_logic_vector(a-1 downto 0);
-		-- шина адреса для чтения
 		RA: in std_logic_vector(a-1 downto 0);
-		-- сигнал разрешения записи
 		WE: in std_logic;
-		-- прочитанные данные
 		RDP: out std_logic_vector(INITREG'range));
 end RegFile;
 
@@ -36,11 +28,8 @@ architecture Beh of RegFile is
 			OE: in std_logic;
 			Dout: out std_logic_vector(initreg'range));
 	end component;
-	-- выход дешифратора адреса записи
 	signal wen: std_logic_vector(2**a-1 downto 0);
-	-- выход дешифратора адреса чтения
 	signal ren: std_logic_vector(2**a-1 downto 0);
-	-- прочитанные данные
 	signal readd: std_logic_vector (initreg'range);
 Begin
 	WAD: process (WA)

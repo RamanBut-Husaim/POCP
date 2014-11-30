@@ -1,9 +1,5 @@
 i<>.\src\RegFile.vhd
 i<>.\src\RegN.vhd
-i<>.\src\RegFile_T.vhd
 i<>.\src\RAM.vhd
-i<>.\src\RAM_T.vhd
 i<>.\src\LIFO.vhd
-i<>.\src\LIFO_T.vhd
 i<>.\src\RAM_Ham.vhd
-i<>.\src\RAM_Ham_T.vhd

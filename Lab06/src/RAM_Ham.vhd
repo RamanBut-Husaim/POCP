@@ -5,28 +5,20 @@ use IEEE.STD_LOGIC_UNSIGNED.all;
 
 entity RAM_Ham is
 	generic(
-		-- шина адреса
 		m: integer := 2;
-		-- шина данных
 		n: integer := 4
 		);
 	port (
-		-- синхронизация
 		CLK: in std_logic;
-		-- сигнал управления чтением/записью
 		WR: in std_logic;
-		-- шина адреса
 		AB: in std_logic_vector (m-1 downto 0);
-		-- 	двунаправленная шина данных
 		DB: inout std_logic_vector (n-1 downto 0);
 		ER: out std_logic
 		);
 end RAM_Ham;
 
 architecture Beh of RAM_Ham is
-	-- тип хранимого слова
 	subtype word is std_logic_vector (n+2 downto 0);
-	-- непосредственно тип хранилища данных
 	type tram is array (0 to 2**m - 1) of word;
 	signal sRAM: tram;
 	signal addrreg: integer range 0 to 2**m - 1;

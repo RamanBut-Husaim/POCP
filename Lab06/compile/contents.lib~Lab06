@@ -1,4 +1,4 @@
-1251
+111
 ~E 1 "./../src/LIFO.vhd" 6 LIFO
 ~A 1 "./../src/LIFO.vhd" 25 Beh
 ~E 1 "./../src/Testbenches/LIFO_T.vhd" 6 LIFO_T
@@ -6,13 +6,13 @@
 ~E 1 "./../src/RAM.vhd" 6 RAM
 ~A 1 "./../src/RAM.vhd" 25 Beh
 ~E 1 "./../src/RAM_Ham.vhd" 6 RAM_Ham
-~A 1 "./../src/RAM_Ham.vhd" 26 Beh
+~A 1 "./../src/RAM_Ham.vhd" 20 Beh
 ~E 1 "./../src/Testbenches/RAM_Ham_T.vhd" 4 RAM_HAM_T
 ~A 1 "./../src/Testbenches/RAM_Ham_T.vhd" 7 Beh
 ~E 1 "./../src/Testbenches/RAM_T.vhd" 4 RAM_T
 ~A 1 "./../src/Testbenches/RAM_T.vhd" 7 Beh
 ~E 1 "./../src/RegFile.vhd" 6 RegFile
-~A 1 "./../src/RegFile.vhd" 27 Beh
+~A 1 "./../src/RegFile.vhd" 19 Beh
 ~E 1 "./../src/Testbenches/RegFile_T.vhd" 4 RegFile_T
 ~A 1 "./../src/Testbenches/RegFile_T.vhd" 7 Beh
 ~E 1 "./../src/RegN.vhd" 4 RegN
