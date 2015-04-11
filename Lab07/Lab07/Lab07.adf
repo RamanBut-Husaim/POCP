@@ -55,7 +55,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=max_finder_t|Beh|0 zero_counter_t|Beh|0 
+HierarchyInformation=traffic_lights_t|Beh|0 zero_counter_t|Beh|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -65,11 +65,11 @@ Max=1
 Zeroes=1
 
 [Files]
+/MROM.vhd=-1
 /TrafficLights.vhd=-1
 /DPATH.vhd=-1
-/CTRL1.vhd=-1
 /MRAM.vhd=-1
-/MROM.vhd=-1
+/CTRL1.vhd=-1
 Testbenches/zero_counter_t.vhd=-1
 Testbenches/max_finder_t.vhd=-1
 Testbenches/traffic_lights_t.vhd=-1
@@ -77,11 +77,11 @@ Max/MaxFinder.vhd=-1
 Zeroes/ZeroCounter.vhd=-1
 
 [Files.Data]
+.\src\MROM.vhd=VHDL Source Code
 .\src\TrafficLights.vhd=VHDL Source Code
 .\src\DPATH.vhd=VHDL Source Code
-.\src\CTRL1.vhd=VHDL Source Code
 .\src\MRAM.vhd=VHDL Source Code
-.\src\MROM.vhd=VHDL Source Code
+.\src\CTRL1.vhd=VHDL Source Code
 .\src\Testbenches\zero_counter_t.vhd=VHDL Source Code
 .\src\Testbenches\max_finder_t.vhd=VHDL Source Code
 .\src\Testbenches\traffic_lights_t.vhd=VHDL Source Code

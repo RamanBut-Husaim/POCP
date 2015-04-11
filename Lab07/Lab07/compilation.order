@@ -1,8 +1,8 @@
+.\src\MROM.vhd
 .\src\TrafficLights.vhd
 .\src\DPATH.vhd
-.\src\CTRL1.vhd
 .\src\MRAM.vhd
-.\src\MROM.vhd
+.\src\CTRL1.vhd
 .\src\Testbenches\zero_counter_t.vhd
 .\src\Testbenches\max_finder_t.vhd
 .\src\Testbenches\traffic_lights_t.vhd
